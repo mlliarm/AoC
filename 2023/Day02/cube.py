@@ -19,11 +19,14 @@ def lol(a: list) -> list:
             alist.append(j.split(" "))
     return alist
 
+
 def choose(color:str, alol:list) -> list:
     return [x for x in alol if x[1]==color]
 
+
 def myfilt(alol:list) -> list:
     return max(alol, key=lambda x: int(x[0]))
+
 
 def solution(data:dict) -> tuple:
     sum = 0
@@ -44,4 +47,6 @@ def main():
     data = input_file("input.txt")
     print(solution(data))
 
-main()
+
+if __name__ == "__main__":
+    main()
