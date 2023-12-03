@@ -1,5 +1,5 @@
 def input_file(inputfile: str) -> dict:
-    with open('input.txt') as f:
+    with open(inputfile) as f:
         res = list()
         for i,line in enumerate(f):
             j = i+1
