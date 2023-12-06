@@ -48,6 +48,7 @@ NB. $ barr
 key_indexes=. barr index s1; s2; s3; s4; s5; s6; s7
 key_indexes
 
+NB. Index of every key in the box-list
 ix0 =. 0 { key_indexes
 ix1 =. 1 { key_indexes
 ix2 =. 2 { key_indexes
@@ -64,16 +65,18 @@ dix4 =. ix4 - ix3
 dix5 =. ix5 - ix4
 dix6 =. ix6 - ix5
 dix7 =. ($ barr) - ix6
-dix0; dix1; dix2; dix3; dix4; dix5; dix6; dix7
+NB. dix0; dix1; dix2; dix3; dix4; dix5; dix6; dix7
 
+NB. Box-lists of the seeds data and every other key and its data.
+seeds=. ;: > 0 { barr
 
-(ix0 + i. dix1) { barr
-(ix1 + i. dix2) { barr
-(ix2 + i. dix3) { barr
-(ix3 + i. dix4) { barr
-(ix4 + i. dix5) { barr
-(ix5 + i. dix6) { barr
-(ix6 + i. dix7) { barr
+ds1=. (ix0 + i. dix1) { barr
+ds2=. (ix1 + i. dix2) { barr
+ds3=. (ix2 + i. dix3) { barr
+ds4=. (ix3 + i. dix4) { barr
+ds5=. (ix4 + i. dix5) { barr
+ds6=. (ix5 + i. dix6) { barr
+ds7=. (ix6 + i. dix7) { barr
 
 NB. Some other calc
 colN =. # > split data
