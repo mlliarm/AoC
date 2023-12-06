@@ -20,7 +20,7 @@ index =. {{
 
 NB. ===============================  Reading data
 readfile =: 1!:1
-fn =. < '/home/milia/Documents/dev/AoC/AoC/2023/Day05/input.txt'
+fn =. < '/home/milia/Documents/dev/AoC/AoC/2023/Day05/inputsmall.txt'
 data =. readfile fn
 NB. data
 
@@ -57,13 +57,13 @@ ix4 =. 4 { key_indexes
 ix5 =. 5 { key_indexes
 ix6 =. 6 { key_indexes
 
-dix0 =. ix0
-dix1 =. ix1 - ix0
-dix2 =. ix2 - ix1
-dix3 =. ix3 - ix2
-dix4 =. ix4 - ix3
-dix5 =. ix5 - ix4
-dix6 =. ix6 - ix5
+dix0 =. 0 { key_indexes
+dix1 =. (1 { [ - 0 { ]) key_indexes
+dix2 =. (2 { [ - 1 { ]) key_indexes
+dix3 =. (3 { [ - 2 { ]) key_indexes
+dix4 =. (4 { [ - 3 { ]) key_indexes
+dix5 =. (5 { [ - 4 { ]) key_indexes
+dix6 =. (6 { [ - 5 { ]) key_indexes
 dix7 =. ($ barr) - ix6
 NB. dix0; dix1; dix2; dix3; dix4; dix5; dix6; dix7
 
@@ -79,11 +79,27 @@ ds6=. (ix5 + i. dix6) { barr
 ds7=. (ix6 + i. dix7) { barr
 
 NB. Some other calc
-colN =. # > split data
+NB. colN =. # > split data
+NB.
+NB. Narr =. i. colN
+NB. Narr
 
-Narr =. i. colN
-Narr
+NB. ==================Converting each map to a Nx2 array
 
+NB. Seed to Soil
+ds1
+
+NB. Soil to Fertilizer
+
+NB. Fertilizer to Water
+
+NB. Water to Light
+
+NB. Light to Temp
+
+NB. Temp to Humidity
+
+NB. Humidity to Location
 
 
 
