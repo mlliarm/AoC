@@ -40,7 +40,21 @@ class Hand:
         c = check_freq(self.content)
         sod = dict_to_odict(c)
         self.multiplicity = sod
-    
+        
+    # def set_hand_name_J(self) -> None:
+    #     if 'J' in self.content:
+    #         temp_hand_cont = self.content
+    #         thc = sorted(temp_hand_cont, key=lambda x: cards[x], reverse=True)
+    #         if self.content.index('J') == 0:
+    #             ("".join(thc)).replace("J",thc[1])
+    #         else:
+    #             ("".join(thc)).replace("J",thc[0])
+    #         multivals = list(dict_to_odict(check_freq(thc)).values())
+    #         self.name = types_of_hands[str(multivals)]
+    #     else:
+    #         self.set_hand_name()
+            
+        
     def get_multi_values(self) -> list:
         return sorted(self.multiplicity.values(), reverse=True)
         
@@ -113,6 +127,9 @@ def main():
     print(total_winnings(sorted_hands))
     
     # SOLUTION OF SECOND PART
+    # h=Hand("","KTJJT",684,{},0)
+    # h.set_hand_name_J()
+    # print(h)
 
 if __name__ == "__main__":
     main()
