@@ -1,7 +1,6 @@
 from collections import OrderedDict
 from typing import List, Dict, Tuple
 from dataclasses import dataclass
-from functools import cmp_to_key
 
 cards = {
     "A": 13,
