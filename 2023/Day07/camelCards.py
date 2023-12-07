@@ -41,25 +41,26 @@ class Hand:
         sod = dict_to_odict(c)
         self.multiplicity = sod
         
-    # def set_hand_name_J(self) -> None:
-    #     if 'J' in self.content:
-    #         temp_hand_cont = self.content
-    #         thc = sorted(temp_hand_cont, key=lambda x: cards[x], reverse=True)
-    #         if self.content.index('J') == 0:
-    #             ("".join(thc)).replace("J",thc[1])
-    #         else:
-    #             ("".join(thc)).replace("J",thc[0])
-    #         multivals = list(dict_to_odict(check_freq(thc)).values())
-    #         self.name = types_of_hands[str(multivals)]
-    #     else:
-    #         self.set_hand_name()
+    def set_hand_name(self) -> None:
+        if 'J' in self.content:
+            temp_hand_cont = self.content
+            thc = sorted(temp_hand_cont, key=lambda x: cards[x], reverse=True)
+            print(thc)
+            if self.content.index('J') == 0:
+                thc = ("".join(thc)).replace("J",thc[1])
+            else:
+                thc = ("".join(thc)).replace("J",thc[0])
+            multivals = list(dict_to_odict(check_freq(thc)).values())
+            self.name = types_of_hands[str(multivals)]
+        else:
+            self.name = types_of_hands[str(self.get_multi_values())]
             
         
     def get_multi_values(self) -> list:
         return sorted(self.multiplicity.values(), reverse=True)
         
-    def set_hand_name(self) -> None:
-        self.name = types_of_hands[str(self.get_multi_values())]
+    # def set_hand_name_part1(self) -> None:
+    #     self.name = types_of_hands[str(self.get_multi_values())]
         
       
 @dataclass
@@ -83,11 +84,6 @@ def input_file(inputfile: str) -> dict:
             line = line.split(" ")
             res[i] = line
     return res
-        
-def set_hand_name(h: Hand) -> None:
-    multivals = str(h.get_multi_values())
-    print(multivals)
-    h.name = types_of_hands[str(multivals)]
     
 def sort_hands(hands: List[Hand]) -> List[Hand]:
      return sorted(hands, key= lambda x: (
@@ -107,7 +103,7 @@ def total_winnings(sorted_hands: List[Hand]) -> int:
     return sum
 
 def main():
-    data = input_file("./input.txt")
+    data = input_file("./inputsmall.txt")
 
     my_deck = list()
     for i,d in enumerate(data):
@@ -127,9 +123,10 @@ def main():
     print(total_winnings(sorted_hands))
     
     # SOLUTION OF SECOND PART
-    # h=Hand("","KTJJT",684,{},0)
-    # h.set_hand_name_J()
-    # print(h)
+    h=Hand("","KTJJT",684,{},0)
+    h.set_hand_multiplicity()
+    h.set_hand_name()
+    print(h)
 
 if __name__ == "__main__":
     main()
