@@ -22,29 +22,45 @@ func GetInput(filename string) []string {
 }
 
 func MakeNodesFromData(data []string) []Node {
-	node_map := make(map[string]string)
-	for _, v := range data[2:] {
-		// fmt.Println(i, v)
+	node_list := make([]Node, len(data[2:]))
+	for i, v := range data[2:] {
 		a := strings.Split(v, " = ")
-		node_map[a[0]] = a[1]
+		node := Node{Name: a[0], Left: a[1][1:4], Right: a[1][6:9]}
+		node_list[i] = node
 	}
-	N := len(node_map)
-	nodes := make([]Node, N)
-	i := 0
-	for k, v := range node_map {
-		node := Node{Name: k, Left: v[1:4], Right: v[6:9]}
-		nodes[i] = node
-		i++
-	}
-	return nodes
+	return node_list
 }
 
 func main() {
 	data := GetInput("inputsmall.txt")
 	rules := data[0]
 	fmt.Println(rules)
+	fmt.Println(data[2:])
 	nodes := MakeNodesFromData(data)
 	for i, n := range nodes {
 		fmt.Println(i, n.Name, n.Left, n.Right)
 	}
+
+	next := Node{}
+	step := 0
+	for _, direction := range rules {
+		for _, n := range nodes {
+			if string(direction) == "R" {
+				if n.Name == n.Right {
+					next.Name = n.Right
+					step++
+				} else {
+					continue
+				}
+			} else if string(direction) == "L" {
+				if n.Name == n.Left {
+					next.Name = n.Left
+					step++
+				} else {
+					continue
+				}
+			}
+		}
+	}
+	fmt.Println(step)
 }
