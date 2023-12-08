@@ -1,0 +1,2002 @@
+('High card', 1) 23579 396 1
+('High card', 1) 239T5 832 2
+('High card', 1) 248KA 173 3
+('High card', 1) 249TA 423 4
+('High card', 1) 254AJ 785 5
+('High card', 1) 25648 606 6
+('High card', 1) 26398 539 7
+('High card', 1) 26785 726 8
+('High card', 1) 268JA 71 9
+('High card', 1) 273T8 602 10
+('High card', 1) 2847Q 321 11
+('High card', 1) 28547 766 12
+('High card', 1) 28JQ5 943 13
+('High card', 1) 28A34 997 14
+('High card', 1) 2934A 869 15
+('High card', 1) 2968J 698 16
+('High card', 1) 2973J 458 17
+('High card', 1) 29K4T 69 18
+('High card', 1) 29KT6 973 19
+('High card', 1) 2T3A5 920 20
+('High card', 1) 2Q9J7 647 21
+('High card', 1) 2K37A 176 22
+('High card', 1) 2K3J7 515 23
+('High card', 1) 2KJ95 644 24
+('High card', 1) 2KQA8 179 25
+('High card', 1) 2A57J 965 26
+('High card', 1) 2AK9T 249 27
+('High card', 1) 3275T 553 28
+('High card', 1) 32T98 475 29
+('High card', 1) 345J2 710 30
+('High card', 1) 34Q8K 291 31
+('High card', 1) 3679K 676 32
+('High card', 1) 3789A 583 33
+('High card', 1) 394JK 570 34
+('High card', 1) 39K56 958 35
+('High card', 1) 3T4J2 989 36
+('High card', 1) 3T926 487 37
+('High card', 1) 3TKA8 823 38
+('High card', 1) 3J4A6 313 39
+('High card', 1) 3A69K 780 40
+('High card', 1) 3A82K 891 41
+('High card', 1) 3A8T9 951 42
+('High card', 1) 3AT6Q 693 43
+('High card', 1) 3AQ5J 441 44
+('High card', 1) 42K3T 955 45
+('High card', 1) 43752 88 46
+('High card', 1) 438K5 184 47
+('High card', 1) 43K8J 335 48
+('High card', 1) 45762 496 49
+('High card', 1) 46J79 827 50
+('High card', 1) 487K5 142 51
+('High card', 1) 49QKJ 425 52
+('High card', 1) 4T2J6 59 53
+('High card', 1) 4K9A6 748 54
+('High card', 1) 4A6TQ 281 55
+('High card', 1) 4A96Q 23 56
+('High card', 1) 4A973 35 57
+('High card', 1) 4AK27 889 58
+('High card', 1) 564KA 505 59
+('High card', 1) 59TJQ 430 60
+('High card', 1) 59TAJ 901 61
+('High card', 1) 5J37A 595 62
+('High card', 1) 5J64A 251 63
+('High card', 1) 5J6A2 864 64
+('High card', 1) 5QT4K 592 65
+('High card', 1) 5K38A 656 66
+('High card', 1) 5KJ6A 465 67
+('High card', 1) 5A273 519 68
+('High card', 1) 62347 627 69
+('High card', 1) 6329Q 944 70
+('High card', 1) 63JA7 100 71
+('High card', 1) 67Q8T 186 72
+('High card', 1) 68T3Q 550 73
+('High card', 1) 69235 777 74
+('High card', 1) 69274 645 75
+('High card', 1) 69QK2 743 76
+('High card', 1) 69K87 264 77
+('High card', 1) 6J378 755 78
+('High card', 1) 6Q297 601 79
+('High card', 1) 6QK48 114 80
+('High card', 1) 6QA4K 297 81
+('High card', 1) 723Q9 932 82
+('High card', 1) 72T56 2 83
+('High card', 1) 73TK2 258 84
+('High card', 1) 742K5 223 85
+('High card', 1) 7452Q 254 86
+('High card', 1) 74TQA 783 87
+('High card', 1) 754KQ 541 88
+('High card', 1) 756AK 839 89
+('High card', 1) 7685Q 862 90
+('High card', 1) 7894J 599 91
+('High card', 1) 79853 94 92
+('High card', 1) 7T5KJ 967 93
+('High card', 1) 7T84K 708 94
+('High card', 1) 7K53J 394 95
+('High card', 1) 7A4QJ 903 96
+('High card', 1) 7A6J5 848 97
+('High card', 1) 82A36 197 98
+('High card', 1) 836T4 982 99
+('High card', 1) 83Q52 939 100
+('High card', 1) 849TJ 733 101
+('High card', 1) 8562T 124 102
+('High card', 1) 85A2J 528 103
+('High card', 1) 86JAQ 589 104
+('High card', 1) 8764Q 934 105
+('High card', 1) 87K35 820 106
+('High card', 1) 87A62 584 107
+('High card', 1) 89QJ4 648 108
+('High card', 1) 8A257 463 109
+('High card', 1) 8ATQ3 315 110
+('High card', 1) 8AJ95 108 111
+('High card', 1) 8AK59 46 112
+('High card', 1) 92QAK 220 113
+('High card', 1) 9376T 571 114
+('High card', 1) 9438T 97 115
+('High card', 1) 94Q72 853 116
+('High card', 1) 95QJK 219 117
+('High card', 1) 967TA 774 118
+('High card', 1) 96Q3J 702 119
+('High card', 1) 96Q47 192 120
+('High card', 1) 974KT 752 121
+('High card', 1) 978T4 389 122
+('High card', 1) 97J8A 892 123
+('High card', 1) 98T72 1 124
+('High card', 1) 9T8QK 224 125
+('High card', 1) 9Q26A 874 126
+('High card', 1) 9A83J 492 127
+('High card', 1) T456Q 617 128
+('High card', 1) T4729 243 129
+('High card', 1) T78J6 44 130
+('High card', 1) T829Q 405 131
+('High card', 1) T83J2 257 132
+('High card', 1) T8973 530 133
+('High card', 1) T8QA5 349 134
+('High card', 1) T97AJ 265 135
+('High card', 1) TJ734 988 136
+('High card', 1) TJ7Q6 612 137
+('High card', 1) TJKA5 288 138
+('High card', 1) TQ3K6 293 139
+('High card', 1) TQ47K 472 140
+('High card', 1) TQ49A 429 141
+('High card', 1) TQAK3 926 142
+('High card', 1) TK3J6 691 143
+('High card', 1) TK4JA 968 144
+('High card', 1) TK8A7 253 145
+('High card', 1) TA26Q 11 146
+('High card', 1) TA7K2 831 147
+('High card', 1) J28TQ 32 148
+('High card', 1) J2934 918 149
+('High card', 1) J2KA5 422 150
+('High card', 1) J369T 304 151
+('High card', 1) J3QK2 452 152
+('High card', 1) J3KQT 109 153
+('High card', 1) J462Q 851 154
+('High card', 1) J5K64 940 155
+('High card', 1) J8467 543 156
+('High card', 1) J8964 845 157
+('High card', 1) J9Q37 884 158
+('High card', 1) JT753 99 159
+('High card', 1) JK247 810 160
+('High card', 1) JK2TA 252 161
+('High card', 1) JK2Q6 992 162
+('High card', 1) JA48Q 547 163
+('High card', 1) Q2943 860 164
+('High card', 1) Q2J9A 130 165
+('High card', 1) Q3JT8 324 166
+('High card', 1) Q5384 170 167
+('High card', 1) Q57KT 587 168
+('High card', 1) Q6J57 272 169
+('High card', 1) Q84K9 457 170
+('High card', 1) Q9A43 559 171
+('High card', 1) QT837 294 172
+('High card', 1) QTJ5K 666 173
+('High card', 1) QTK4A 268 174
+('High card', 1) QK235 362 175
+('High card', 1) QA39K 900 176
+('High card', 1) K249A 51 177
+('High card', 1) K3J96 614 178
+('High card', 1) K6275 414 179
+('High card', 1) K63JA 74 180
+('High card', 1) K7935 760 181
+('High card', 1) K7Q95 596 182
+('High card', 1) K7QJ6 723 183
+('High card', 1) K8T9J 407 184
+('High card', 1) K9572 746 185
+('High card', 1) K9J6Q 204 186
+('High card', 1) KJ7Q4 110 187
+('High card', 1) KAJQ6 454 188
+('High card', 1) KAQ85 594 189
+('High card', 1) A34QT 987 190
+('High card', 1) A4Q52 369 191
+('High card', 1) A4K7T 275 192
+('High card', 1) A7K86 688 193
+('High card', 1) A86K3 364 194
+('High card', 1) A8957 789 195
+('High card', 1) A89K6 127 196
+('High card', 1) A8J3Q 984 197
+('High card', 1) A93JK 146 198
+('High card', 1) AT934 613 199
+('High card', 1) ATJQK 128 200
+('High card', 1) AJ32K 609 201
+('High card', 1) AK2J7 930 202
+('One pair', 2) 2249A 6 203
+('One pair', 2) 23J52 218 204
+('One pair', 2) 23K55 340 205
+('One pair', 2) 244TQ 569 206
+('One pair', 2) 2488J 104 207
+('One pair', 2) 24966 978 208
+('One pair', 2) 253Q5 692 209
+('One pair', 2) 2624K 512 210
+('One pair', 2) 263T6 632 211
+('One pair', 2) 286T6 572 212
+('One pair', 2) 28J98 972 213
+('One pair', 2) 29TQ2 790 214
+('One pair', 2) 2J7T7 661 215
+('One pair', 2) 2J842 888 216
+('One pair', 2) 2J959 793 217
+('One pair', 2) 2JT25 522 218
+('One pair', 2) 2Q5JQ 544 219
+('One pair', 2) 2Q755 307 220
+('One pair', 2) 2K9TK 48 221
+('One pair', 2) 2A6KA 959 222
+('One pair', 2) 2A94A 355 223
+('One pair', 2) 2AAT9 532 224
+('One pair', 2) 323JT 993 225
+('One pair', 2) 32JQQ 974 226
+('One pair', 2) 334T2 826 227
+('One pair', 2) 337TQ 65 228
+('One pair', 2) 337Q2 801 229
+('One pair', 2) 33TJ5 740 230
+('One pair', 2) 36238 151 231
+('One pair', 2) 36T99 86 232
+('One pair', 2) 38QJ8 131 233
+('One pair', 2) 38KA8 295 234
+('One pair', 2) 3J3K8 14 235
+('One pair', 2) 3JT55 77 236
+('One pair', 2) 3JK93 54 237
+('One pair', 2) 3K32Q 240 238
+('One pair', 2) 3A398 914 239
+('One pair', 2) 46236 802 240
+('One pair', 2) 47243 365 241
+('One pair', 2) 48QQ9 299 242
+('One pair', 2) 4939J 630 243
+('One pair', 2) 4969A 367 244
+('One pair', 2) 4T3JT 655 245
+('One pair', 2) 4TK4J 331 246
+('One pair', 2) 4TA5A 363 247
+('One pair', 2) 4Q668 334 248
+('One pair', 2) 4Q9TQ 887 249
+('One pair', 2) 4K4Q2 137 250
+('One pair', 2) 4K7Q4 89 251
+('One pair', 2) 4KA46 309 252
+('One pair', 2) 4KAJK 638 253
+('One pair', 2) 4AT77 896 254
+('One pair', 2) 53493 756 255
+('One pair', 2) 55328 782 256
+('One pair', 2) 5546T 615 257
+('One pair', 2) 56TJT 203 258
+('One pair', 2) 56J5T 379 259
+('One pair', 2) 56J86 582 260
+('One pair', 2) 5899J 949 261
+('One pair', 2) 596T5 17 262
+('One pair', 2) 5TK6T 662 263
+('One pair', 2) 5J5K7 8 264
+('One pair', 2) 5J6K6 859 265
+('One pair', 2) 5JQ52 523 266
+('One pair', 2) 5Q5T2 386 267
+('One pair', 2) 5QQA2 510 268
+('One pair', 2) 5KK3J 149 269
+('One pair', 2) 5A448 520 270
+('One pair', 2) 5A8QA 674 271
+('One pair', 2) 63T83 753 272
+('One pair', 2) 63J35 229 273
+('One pair', 2) 64TQ6 867 274
+('One pair', 2) 6535J 195 275
+('One pair', 2) 664QK 474 276
+('One pair', 2) 67AJ6 719 277
+('One pair', 2) 68355 442 278
+('One pair', 2) 69577 518 279
+('One pair', 2) 6T5JJ 549 280
+('One pair', 2) 6TTQK 899 281
+('One pair', 2) 6TJK6 30 282
+('One pair', 2) 6J256 341 283
+('One pair', 2) 6J88A 27 284
+('One pair', 2) 6Q4Q2 285 285
+('One pair', 2) 6QKQ5 711 286
+('One pair', 2) 6K5K3 551 287
+('One pair', 2) 73479 694 288
+('One pair', 2) 73QTT 561 289
+('One pair', 2) 76T86 38 290
+('One pair', 2) 76KK3 906 291
+('One pair', 2) 77392 393 292
+('One pair', 2) 779A5 695 293
+('One pair', 2) 797TA 749 294
+('One pair', 2) 7988T 164 295
+('One pair', 2) 7J735 326 296
+('One pair', 2) 7J7Q3 581 297
+('One pair', 2) 7JJ9A 742 298
+('One pair', 2) 7JQ97 494 299
+('One pair', 2) 7QJQ3 619 300
+('One pair', 2) 7A5A2 808 301
+('One pair', 2) 7AJ3A 210 302
+('One pair', 2) 82434 207 303
+('One pair', 2) 83599 482 304
+('One pair', 2) 84287 31 305
+('One pair', 2) 846A4 15 306
+('One pair', 2) 85JJA 39 307
+('One pair', 2) 85A2A 58 308
+('One pair', 2) 86QJQ 453 309
+('One pair', 2) 8727A 969 310
+('One pair', 2) 87289 893 311
+('One pair', 2) 8786K 818 312
+('One pair', 2) 884T7 682 313
+('One pair', 2) 885QT 709 314
+('One pair', 2) 8T3KT 715 315
+('One pair', 2) 8T528 525 316
+('One pair', 2) 8T829 576 317
+('One pair', 2) 8T87Q 669 318
+('One pair', 2) 8T89K 356 319
+('One pair', 2) 8TJ99 45 320
+('One pair', 2) 8TATJ 357 321
+('One pair', 2) 8J6K8 445 322
+('One pair', 2) 8J9J7 376 323
+('One pair', 2) 8JT77 990 324
+('One pair', 2) 8Q5J5 470 325
+('One pair', 2) 8K839 857 326
+('One pair', 2) 8KT5K 154 327
+('One pair', 2) 8KAAQ 514 328
+('One pair', 2) 8AQ83 55 329
+('One pair', 2) 8AAKJ 43 330
+('One pair', 2) 934A9 952 331
+('One pair', 2) 94J59 945 332
+('One pair', 2) 96625 922 333
+('One pair', 2) 977QK 908 334
+('One pair', 2) 997J3 467 335
+('One pair', 2) 997J4 817 336
+('One pair', 2) 9985Q 267 337
+('One pair', 2) 99J36 41 338
+('One pair', 2) 99AT7 413 339
+('One pair', 2) 9J9Q3 159 340
+('One pair', 2) 9Q443 451 341
+('One pair', 2) T2352 95 342
+('One pair', 2) T2J6T 873 343
+('One pair', 2) T3949 956 344
+('One pair', 2) T464K 768 345
+('One pair', 2) T4T52 579 346
+('One pair', 2) T5J7J 717 347
+('One pair', 2) T5JTK 213 348
+('One pair', 2) T67JT 260 349
+('One pair', 2) T68TA 56 350
+('One pair', 2) T6J86 168 351
+('One pair', 2) T6AJA 950 352
+('One pair', 2) T6AKT 190 353
+('One pair', 2) T7957 509 354
+('One pair', 2) T8853 244 355
+('One pair', 2) T8T56 391 356
+('One pair', 2) T9489 975 357
+('One pair', 2) TJ95J 153 358
+('One pair', 2) TQ4QA 352 359
+('One pair', 2) TQT2A 830 360
+('One pair', 2) TQT68 720 361
+('One pair', 2) TA558 593 362
+('One pair', 2) J26J9 138 363
+('One pair', 2) J2944 621 364
+('One pair', 2) J2982 232 365
+('One pair', 2) J2A62 981 366
+('One pair', 2) J3352 156 367
+('One pair', 2) J3552 82 368
+('One pair', 2) J5422 380 369
+('One pair', 2) J6T65 449 370
+('One pair', 2) J72A7 381 371
+('One pair', 2) J79K9 849 372
+('One pair', 2) J8876 171 373
+('One pair', 2) J944Q 180 374
+('One pair', 2) J9Q2Q 50 375
+('One pair', 2) JT8J6 921 376
+('One pair', 2) JTJA3 620 377
+('One pair', 2) JTQ5J 795 378
+('One pair', 2) JTQ7T 480 379
+('One pair', 2) JTK9T 279 380
+('One pair', 2) JTKAK 590 381
+('One pair', 2) JJ2AK 18 382
+('One pair', 2) JAK7K 342 383
+('One pair', 2) Q4Q35 216 384
+('One pair', 2) Q5Q49 665 385
+('One pair', 2) Q5Q8J 856 386
+('One pair', 2) Q772T 400 387
+('One pair', 2) Q78AQ 432 388
+('One pair', 2) Q9937 47 389
+('One pair', 2) QT9T5 625 390
+('One pair', 2) QTJ3J 261 391
+('One pair', 2) QK29K 105 392
+('One pair', 2) QKT2T 639 393
+('One pair', 2) QA9KQ 177 394
+('One pair', 2) K226J 395 395
+('One pair', 2) K335T 928 396
+('One pair', 2) K3977 772 397
+('One pair', 2) K39KA 133 398
+('One pair', 2) K3Q4K 490 399
+('One pair', 2) K6K57 732 400
+('One pair', 2) K7K38 415 401
+('One pair', 2) K7KA2 758 402
+('One pair', 2) K7A4A 330 403
+('One pair', 2) K8628 196 404
+('One pair', 2) K9232 737 405
+('One pair', 2) K96TK 187 406
+('One pair', 2) K9798 278 407
+('One pair', 2) KTK8J 870 408
+('One pair', 2) KJ84K 284 409
+('One pair', 2) KJ99Q 489 410
+('One pair', 2) KK823 705 411
+('One pair', 2) A3TTQ 404 412
+('One pair', 2) A3KJA 986 413
+('One pair', 2) A5994 208 414
+('One pair', 2) A59AK 412 415
+('One pair', 2) A5KAT 836 416
+('One pair', 2) A62A9 129 417
+('One pair', 2) A85Q8 605 418
+('One pair', 2) A8JA7 797 419
+('One pair', 2) A8QQT 712 420
+('One pair', 2) AQ72A 420 421
+('One pair', 2) AQAT7 28 422
+('One pair', 2) AA56K 87 423
+('One pair', 2) AA839 834 424
+('Two pair', 3) 22775 618 425
+('Two pair', 3) 22QQ9 879 426
+('Two pair', 3) 22KKA 671 427
+('Two pair', 3) 22KAA 354 428
+('Two pair', 3) 23293 255 429
+('Two pair', 3) 23JJ3 118 430
+('Two pair', 3) 24A4A 373 431
+('Two pair', 3) 25257 165 432
+('Two pair', 3) 25QQ2 81 433
+('Two pair', 3) 28829 757 434
+('Two pair', 3) 29592 739 435
+('Two pair', 3) 2T772 368 436
+('Two pair', 3) 2J332 347 437
+('Two pair', 3) 2Q62Q 263 438
+('Two pair', 3) 2A662 214 439
+('Two pair', 3) 2A8A2 172 440
+('Two pair', 3) 3355K 660 441
+('Two pair', 3) 33AKA 961 442
+('Two pair', 3) 3434J 125 443
+('Two pair', 3) 35566 652 444
+('Two pair', 3) 363Q6 158 445
+('Two pair', 3) 366JJ 736 446
+('Two pair', 3) 36T63 577 447
+('Two pair', 3) 37A37 483 448
+('Two pair', 3) 3TT83 91 449
+('Two pair', 3) 3TTJ3 238 450
+('Two pair', 3) 3J553 440 451
+('Two pair', 3) 3J773 491 452
+('Two pair', 3) 3J883 877 453
+('Two pair', 3) 3JJTT 318 454
+('Two pair', 3) 3Q4Q3 667 455
+('Two pair', 3) 3Q7Q3 700 456
+('Two pair', 3) 3A3KK 174 457
+('Two pair', 3) 3AA99 557 458
+('Two pair', 3) 42492 277 459
+('Two pair', 3) 4466K 163 460
+('Two pair', 3) 44AAJ 448 461
+('Two pair', 3) 46564 438 462
+('Two pair', 3) 47AA4 591 463
+('Two pair', 3) 484Q8 747 464
+('Two pair', 3) 488QQ 194 465
+('Two pair', 3) 48K48 242 466
+('Two pair', 3) 49545 16 467
+('Two pair', 3) 49948 675 468
+('Two pair', 3) 49JJ4 840 469
+('Two pair', 3) 49K4K 610 470
+('Two pair', 3) 49A4A 966 471
+('Two pair', 3) 4JT4T 188 472
+('Two pair', 3) 4K4K8 303 473
+('Two pair', 3) 4KKJ4 175 474
+('Two pair', 3) 4AA34 707 475
+('Two pair', 3) 53395 560 476
+('Two pair', 3) 53TT5 462 477
+('Two pair', 3) 55266 659 478
+('Two pair', 3) 55TT8 460 479
+('Two pair', 3) 55Q88 375 480
+('Two pair', 3) 57257 729 481
+('Two pair', 3) 585A8 198 482
+('Two pair', 3) 58785 637 483
+('Two pair', 3) 5Q5Q9 724 484
+('Two pair', 3) 5QKK5 923 485
+('Two pair', 3) 5A5A4 813 486
+('Two pair', 3) 5A995 677 487
+('Two pair', 3) 622T6 763 488
+('Two pair', 3) 62762 481 489
+('Two pair', 3) 62Q6Q 9 490
+('Two pair', 3) 63863 144 491
+('Two pair', 3) 6655T 629 492
+('Two pair', 3) 66828 833 493
+('Two pair', 3) 66AJA 155 494
+('Two pair', 3) 67576 227 495
+('Two pair', 3) 677JJ 274 496
+('Two pair', 3) 68558 282 497
+('Two pair', 3) 69695 199 498
+('Two pair', 3) 6969J 578 499
+('Two pair', 3) 6JKJ6 775 500
+('Two pair', 3) 6JKK6 390 501
+('Two pair', 3) 6Q6QT 689 502
+('Two pair', 3) 6K6QK 575 503
+('Two pair', 3) 6K76K 436 504
+('Two pair', 3) 72233 248 505
+('Two pair', 3) 72288 546 506
+('Two pair', 3) 72AA7 166 507
+('Two pair', 3) 73327 502 508
+('Two pair', 3) 747Q4 411 509
+('Two pair', 3) 75454 271 510
+('Two pair', 3) 76786 731 511
+('Two pair', 3) 775QQ 343 512
+('Two pair', 3) 787KK 616 513
+('Two pair', 3) 78J7J 895 514
+('Two pair', 3) 79957 964 515
+('Two pair', 3) 799QQ 473 516
+('Two pair', 3) 7J766 286 517
+('Two pair', 3) 7JJ66 388 518
+('Two pair', 3) 7Q997 902 519
+('Two pair', 3) 7K7AK 697 520
+('Two pair', 3) 7A8A8 466 521
+('Two pair', 3) 82283 202 522
+('Two pair', 3) 82299 409 523
+('Two pair', 3) 822TT 863 524
+('Two pair', 3) 8282J 70 525
+('Two pair', 3) 82A8A 565 526
+('Two pair', 3) 83J3J 643 527
+('Two pair', 3) 84864 234 528
+('Two pair', 3) 86683 838 529
+('Two pair', 3) 86J86 262 530
+('Two pair', 3) 885T5 301 531
+('Two pair', 3) 88774 328 532
+('Two pair', 3) 8TJ8T 456 533
+('Two pair', 3) 9292J 230 534
+('Two pair', 3) 977QQ 960 535
+('Two pair', 3) 9922T 141 536
+('Two pair', 3) 9988A 979 537
+('Two pair', 3) 9T9AT 898 538
+('Two pair', 3) 9TJT9 728 539
+('Two pair', 3) 9J339 957 540
+('Two pair', 3) 9QQ89 994 541
+('Two pair', 3) 9K5K5 161 542
+('Two pair', 3) 9K889 799 543
+('Two pair', 3) 9AKK9 410 544
+('Two pair', 3) T2TJJ 183 545
+('Two pair', 3) T44TA 200 546
+('Two pair', 3) T4T88 236 547
+('Two pair', 3) T5T59 259 548
+('Two pair', 3) T5Q5Q 536 549
+('Two pair', 3) T62T2 931 550
+('Two pair', 3) T656T 292 551
+('Two pair', 3) T6TQ6 145 552
+('Two pair', 3) T73T3 270 553
+('Two pair', 3) T75T7 938 554
+('Two pair', 3) T97T9 85 555
+('Two pair', 3) TT7AA 805 556
+('Two pair', 3) TK5T5 624 557
+('Two pair', 3) TA77T 306 558
+('Two pair', 3) J33KK 117 559
+('Two pair', 3) J353J 83 560
+('Two pair', 3) J3QJ3 912 561
+('Two pair', 3) J44JK 201 562
+('Two pair', 3) J55J4 554 563
+('Two pair', 3) J664J 123 564
+('Two pair', 3) J7AA7 751 565
+('Two pair', 3) J88J9 816 566
+('Two pair', 3) JTT66 421 567
+('Two pair', 3) JTJT5 850 568
+('Two pair', 3) JJ878 10 569
+('Two pair', 3) JAA99 725 570
+('Two pair', 3) Q244Q 664 571
+('Two pair', 3) Q3J3Q 651 572
+('Two pair', 3) Q448Q 784 573
+('Two pair', 3) Q44QJ 529 574
+('Two pair', 3) Q4Q99 80 575
+('Two pair', 3) Q5J5Q 567 576
+('Two pair', 3) Q66KQ 890 577
+('Two pair', 3) Q6996 635 578
+('Two pair', 3) Q7227 631 579
+('Two pair', 3) Q77Q2 573 580
+('Two pair', 3) Q88Q3 245 581
+('Two pair', 3) Q9JQ9 837 582
+('Two pair', 3) Q9Q9T 722 583
+('Two pair', 3) QT6TQ 148 584
+('Two pair', 3) QJJ66 738 585
+('Two pair', 3) QJJKQ 819 586
+('Two pair', 3) QQ663 476 587
+('Two pair', 3) QQ996 139 588
+('Two pair', 3) QQTT2 796 589
+('Two pair', 3) K38K3 33 590
+('Two pair', 3) K56K6 954 591
+('Two pair', 3) K585K 237 592
+('Two pair', 3) K64K4 193 593
+('Two pair', 3) K66AK 338 594
+('Two pair', 3) K797K 854 595
+('Two pair', 3) K88TT 636 596
+('Two pair', 3) K8K8Q 399 597
+('Two pair', 3) K9393 366 598
+('Two pair', 3) K93K9 157 599
+('Two pair', 3) K9AA9 276 600
+('Two pair', 3) KTTK5 604 601
+('Two pair', 3) KTK66 402 602
+('Two pair', 3) KQ2QK 924 603
+('Two pair', 3) KK7JJ 126 604
+('Two pair', 3) KAAK7 72 605
+('Two pair', 3) A22QQ 122 606
+('Two pair', 3) A2Q2A 98 607
+('Two pair', 3) A3322 239 608
+('Two pair', 3) A3AT3 919 609
+('Two pair', 3) A4KK4 427 610
+('Two pair', 3) A7AJJ 735 611
+('Two pair', 3) A89A9 503 612
+('Two pair', 3) A8A8J 36 613
+('Two pair', 3) AQQ66 847 614
+('Two pair', 3) AATJT 205 615
+('Three of a kind', 4) 22248 985 616
+('Three of a kind', 4) 223Q2 280 617
+('Three of a kind', 4) 22J27 52 618
+('Three of a kind', 4) 22K26 397 619
+('Three of a kind', 4) 23335 881 620
+('Three of a kind', 4) 24888 225 621
+('Three of a kind', 4) 27797 628 622
+('Three of a kind', 4) 2TT8T 189 623
+('Three of a kind', 4) 2J522 57 624
+('Three of a kind', 4) 2JTTT 781 625
+('Three of a kind', 4) 2KK5K 622 626
+('Three of a kind', 4) 2A722 524 627
+('Three of a kind', 4) 2A888 821 628
+('Three of a kind', 4) 2AKAA 687 629
+('Three of a kind', 4) 32J33 12 630
+('Three of a kind', 4) 33324 634 631
+('Three of a kind', 4) 335J3 178 632
+('Three of a kind', 4) 33632 73 633
+('Three of a kind', 4) 337J3 20 634
+('Three of a kind', 4) 33A35 66 635
+('Three of a kind', 4) 34338 806 636
+('Three of a kind', 4) 34442 970 637
+('Three of a kind', 4) 34633 111 638
+('Three of a kind', 4) 355Q5 513 639
+('Three of a kind', 4) 36676 716 640
+('Three of a kind', 4) 37877 996 641
+('Three of a kind', 4) 38AAA 333 642
+('Three of a kind', 4) 3TJTT 533 643
+('Three of a kind', 4) 42454 53 644
+('Three of a kind', 4) 42A22 21 645
+('Three of a kind', 4) 434J4 305 646
+('Three of a kind', 4) 444JT 398 647
+('Three of a kind', 4) 45Q44 942 648
+('Three of a kind', 4) 46676 311 649
+('Three of a kind', 4) 466J6 699 650
+('Three of a kind', 4) 46KKK 885 651
+('Three of a kind', 4) 49992 371 652
+('Three of a kind', 4) 49J44 501 653
+('Three of a kind', 4) 4TQ44 803 654
+('Three of a kind', 4) 4J744 764 655
+('Three of a kind', 4) 4QQQT 185 656
+('Three of a kind', 4) 4KJ44 152 657
+('Three of a kind', 4) 4KK9K 120 658
+('Three of a kind', 4) 4A44J 450 659
+('Three of a kind', 4) 52262 250 660
+('Three of a kind', 4) 5558J 287 661
+('Three of a kind', 4) 557T5 626 662
+('Three of a kind', 4) 55T5Q 846 663
+('Three of a kind', 4) 55J25 552 664
+('Three of a kind', 4) 55J56 464 665
+('Three of a kind', 4) 55J5T 948 666
+('Three of a kind', 4) 55Q59 428 667
+('Three of a kind', 4) 5TTT2 564 668
+('Three of a kind', 4) 633K3 5 669
+('Three of a kind', 4) 63696 495 670
+('Three of a kind', 4) 644A4 403 671
+('Three of a kind', 4) 64T44 351 672
+('Three of a kind', 4) 64J44 597 673
+('Three of a kind', 4) 65777 162 674
+('Three of a kind', 4) 66624 913 675
+('Three of a kind', 4) 66J86 562 676
+('Three of a kind', 4) 66JQ6 646 677
+('Three of a kind', 4) 66K36 714 678
+('Three of a kind', 4) 676J6 1000 679
+('Three of a kind', 4) 6777Q 568 680
+('Three of a kind', 4) 677J7 339 681
+('Three of a kind', 4) 69667 382 682
+('Three of a kind', 4) 69686 915 683
+('Three of a kind', 4) 69T99 116 684
+('Three of a kind', 4) 69AAA 327 685
+('Three of a kind', 4) 6TT7T 844 686
+('Three of a kind', 4) 6QT66 880 687
+('Three of a kind', 4) 72333 434 688
+('Three of a kind', 4) 727K7 447 689
+('Three of a kind', 4) 73T77 90 690
+('Three of a kind', 4) 74377 875 691
+('Three of a kind', 4) 75477 585 692
+('Three of a kind', 4) 75535 767 693
+('Three of a kind', 4) 77672 439 694
+('Three of a kind', 4) 776K7 907 695
+('Three of a kind', 4) 77752 706 696
+('Three of a kind', 4) 777J2 741 697
+('Three of a kind', 4) 777Q2 548 698
+('Three of a kind', 4) 777Q8 537 699
+('Three of a kind', 4) 779J7 49 700
+('Three of a kind', 4) 7877J 538 701
+('Three of a kind', 4) 7888K 19 702
+('Three of a kind', 4) 79767 835 703
+('Three of a kind', 4) 79994 504 704
+('Three of a kind', 4) 7J77Q 42 705
+('Three of a kind', 4) 7QJQQ 713 706
+('Three of a kind', 4) 7KT77 121 707
+('Three of a kind', 4) 7KK6K 871 708
+('Three of a kind', 4) 7A727 93 709
+('Three of a kind', 4) 7A7K7 641 710
+('Three of a kind', 4) 83222 623 711
+('Three of a kind', 4) 83933 878 712
+('Three of a kind', 4) 84388 134 713
+('Three of a kind', 4) 8444J 679 714
+('Three of a kind', 4) 848J8 991 715
+('Three of a kind', 4) 85655 485 716
+('Three of a kind', 4) 86885 446 717
+('Three of a kind', 4) 88638 150 718
+('Three of a kind', 4) 88789 925 719
+('Three of a kind', 4) 88829 499 720
+('Three of a kind', 4) 8887J 678 721
+('Three of a kind', 4) 88JT8 4 722
+('Three of a kind', 4) 88Q68 829 723
+('Three of a kind', 4) 88QJ8 302 724
+('Three of a kind', 4) 88AT8 26 725
+('Three of a kind', 4) 8QTQQ 947 726
+('Three of a kind', 4) 92242 433 727
+('Three of a kind', 4) 933Q3 484 728
+('Three of a kind', 4) 94996 209 729
+('Three of a kind', 4) 95553 508 730
+('Three of a kind', 4) 9599Q 649 731
+('Three of a kind', 4) 966A6 300 732
+('Three of a kind', 4) 98599 322 733
+('Three of a kind', 4) 994A9 359 734
+('Three of a kind', 4) 99789 92 735
+('Three of a kind', 4) 9993T 228 736
+('Three of a kind', 4) 9994Q 527 737
+('Three of a kind', 4) 999J7 531 738
+('Three of a kind', 4) 999KJ 358 739
+('Three of a kind', 4) 9T99A 812 740
+('Three of a kind', 4) 9J99T 29 741
+('Three of a kind', 4) 9JQ99 102 742
+('Three of a kind', 4) 9Q939 765 743
+('Three of a kind', 4) 9A998 788 744
+('Three of a kind', 4) T3338 600 745
+('Three of a kind', 4) T3TT8 929 746
+('Three of a kind', 4) T55A5 909 747
+('Three of a kind', 4) T5TJT 406 748
+('Three of a kind', 4) T66K6 417 749
+('Three of a kind', 4) T6966 497 750
+('Three of a kind', 4) T7666 34 751
+('Three of a kind', 4) T7Q77 212 752
+('Three of a kind', 4) T89TT 730 753
+('Three of a kind', 4) TT7TA 822 754
+('Three of a kind', 4) TTT58 113 755
+('Three of a kind', 4) TTQT7 370 756
+('Three of a kind', 4) TTK4T 7 757
+('Three of a kind', 4) TJ9TT 787 758
+('Three of a kind', 4) TKKK7 377 759
+('Three of a kind', 4) TAKKK 534 760
+('Three of a kind', 4) TAA9A 443 761
+('Three of a kind', 4) TAAA8 507 762
+('Three of a kind', 4) J3383 231 763
+('Three of a kind', 4) J33T3 387 764
+('Three of a kind', 4) J5595 935 765
+('Three of a kind', 4) J5888 67 766
+('Three of a kind', 4) J5JJ4 372 767
+('Three of a kind', 4) J72JJ 486 768
+('Three of a kind', 4) JT7TT 690 769
+('Three of a kind', 4) JTT4T 13 770
+('Three of a kind', 4) JTT8T 106 771
+('Three of a kind', 4) JKQKK 685 772
+('Three of a kind', 4) Q2224 608 773
+('Three of a kind', 4) Q3233 773 774
+('Three of a kind', 4) Q3QQ7 754 775
+('Three of a kind', 4) Q5255 444 776
+('Three of a kind', 4) Q6333 825 777
+('Three of a kind', 4) Q6QQ4 378 778
+('Three of a kind', 4) Q9KQQ 246 779
+('Three of a kind', 4) QQ2QJ 323 780
+('Three of a kind', 4) QQ4QJ 868 781
+('Three of a kind', 4) QQ57Q 680 782
+('Three of a kind', 4) QQQ39 904 783
+('Three of a kind', 4) QQQ85 40 784
+('Three of a kind', 4) QQQ95 136 785
+('Three of a kind', 4) QK2KK 37 786
+('Three of a kind', 4) K4448 769 787
+('Three of a kind', 4) K9949 999 788
+('Three of a kind', 4) K9KJK 654 789
+('Three of a kind', 4) KJ777 211 790
+('Three of a kind', 4) KJ888 718 791
+('Three of a kind', 4) KQQQT 319 792
+('Three of a kind', 4) KK9KT 734 793
+('Three of a kind', 4) KKK8T 574 794
+('Three of a kind', 4) KKK8A 222 795
+('Three of a kind', 4) KKAK4 998 796
+('Three of a kind', 4) KA7AA 316 797
+('Three of a kind', 4) A2522 521 798
+('Three of a kind', 4) A2555 778 799
+('Three of a kind', 4) A36AA 273 800
+('Three of a kind', 4) A3A5A 927 801
+('Three of a kind', 4) A4888 348 802
+('Three of a kind', 4) A4AA8 61 803
+('Three of a kind', 4) A555J 337 804
+('Three of a kind', 4) A8444 744 805
+('Three of a kind', 4) AAQ7A 811 806
+('Three of a kind', 4) AAA34 653 807
+('Three of a kind', 4) AAA56 905 808
+('Full house', 5) 222TT 872 809
+('Full house', 5) 22J2J 312 810
+('Full house', 5) 22QQ2 235 811
+('Full house', 5) 23322 876 812
+('Full house', 5) 23332 658 813
+('Full house', 5) 25255 3 814
+('Full house', 5) 26266 75 815
+('Full house', 5) 28282 828 816
+('Full house', 5) 2KK2K 360 817
+('Full house', 5) 2AA22 807 818
+('Full house', 5) 33939 809 819
+('Full house', 5) 36336 681 820
+('Full house', 5) 36636 221 821
+('Full house', 5) 37733 670 822
+('Full house', 5) 3T3TT 461 823
+('Full house', 5) 3KK3K 344 824
+('Full house', 5) 44222 325 825
+('Full house', 5) 44224 289 826
+('Full house', 5) 44554 886 827
+('Full house', 5) 44TT4 611 828
+('Full house', 5) 44JJ4 841 829
+('Full house', 5) 45455 588 830
+('Full house', 5) 46644 962 831
+('Full house', 5) 48844 855 832
+('Full house', 5) 4T4TT 437 833
+('Full house', 5) 53353 535 834
+('Full house', 5) 55665 750 835
+('Full house', 5) 58885 558 836
+('Full house', 5) 59955 22 837
+('Full house', 5) 5JJ55 686 838
+('Full house', 5) 62226 101 839
+('Full house', 5) 64466 320 840
+('Full house', 5) 666TT 804 841
+('Full house', 5) 66868 745 842
+('Full house', 5) 66J6J 217 843
+('Full house', 5) 66JJJ 361 844
+('Full house', 5) 66KK6 408 845
+('Full house', 5) 69996 112 846
+('Full house', 5) 75757 76 847
+('Full house', 5) 76677 115 848
+('Full house', 5) 77222 794 849
+('Full house', 5) 77722 96 850
+('Full house', 5) 77799 633 851
+('Full house', 5) 77888 946 852
+('Full house', 5) 77TTT 556 853
+('Full house', 5) 77KKK 107 854
+('Full house', 5) 7Q7QQ 977 855
+('Full house', 5) 85558 642 856
+('Full house', 5) 86868 181 857
+('Full house', 5) 88228 910 858
+('Full house', 5) 88899 771 859
+('Full house', 5) 88T8T 933 860
+('Full house', 5) 8AA88 976 861
+('Full house', 5) 92992 657 862
+('Full house', 5) 93399 511 863
+('Full house', 5) 94994 266 864
+('Full house', 5) 95599 290 865
+('Full house', 5) 98989 431 866
+('Full house', 5) 99444 776 867
+('Full house', 5) 99JJ9 721 868
+('Full house', 5) 99AAA 603 869
+('Full house', 5) 9A9A9 479 870
+('Full house', 5) T22TT 727 871
+('Full house', 5) T66TT 971 872
+('Full house', 5) T999T 936 873
+('Full house', 5) TT88T 455 874
+('Full house', 5) TTT99 866 875
+('Full house', 5) TQQQT 791 876
+('Full house', 5) J77J7 792 877
+('Full house', 5) J88J8 937 878
+('Full house', 5) JJ333 897 879
+('Full house', 5) JJ99J 598 880
+('Full house', 5) JJTTT 419 881
+('Full house', 5) JJAAA 500 882
+('Full house', 5) Q3Q3Q 663 883
+('Full house', 5) Q55Q5 555 884
+('Full house', 5) QJJQJ 650 885
+('Full house', 5) QQ333 858 886
+('Full house', 5) QQ8Q8 247 887
+('Full house', 5) QQQJJ 68 888
+('Full house', 5) QKQKQ 786 889
+('Full house', 5) QKQKK 963 890
+('Full house', 5) QAAAQ 160 891
+('Full house', 5) K4K4K 540 892
+('Full house', 5) K5K55 586 893
+('Full house', 5) K6K6K 269 894
+('Full house', 5) K88KK 640 895
+('Full house', 5) K8K88 383 896
+('Full house', 5) K9K99 953 897
+('Full house', 5) KTTKK 703 898
+('Full house', 5) KJJKJ 704 899
+('Full house', 5) KJKJK 132 900
+('Full house', 5) KK222 64 901
+('Full house', 5) KK333 526 902
+('Full house', 5) KK5K5 384 903
+('Full house', 5) KKAAK 852 904
+('Full house', 5) A3AA3 103 905
+('Full house', 5) A666A 995 906
+('Full house', 5) A777A 673 907
+('Full house', 5) A77AA 545 908
+('Full house', 5) ATTTA 385 909
+('Full house', 5) AKKAA 332 910
+('Full house', 5) AA444 983 911
+('Full house', 5) AA5A5 471 912
+('Full house', 5) AA88A 424 913
+('Full house', 5) AAA22 182 914
+('Four of a kind', 6) 22228 469 915
+('Four of a kind', 6) 2222J 493 916
+('Four of a kind', 6) 22232 668 917
+('Four of a kind', 6) 222K2 167 918
+('Four of a kind', 6) 26666 60 919
+('Four of a kind', 6) 2KKKK 191 920
+('Four of a kind', 6) 33336 256 921
+('Four of a kind', 6) 333J3 814 922
+('Four of a kind', 6) 33533 468 923
+('Four of a kind', 6) 33933 308 924
+('Four of a kind', 6) 33K33 516 925
+('Four of a kind', 6) 34444 143 926
+('Four of a kind', 6) 3Q333 761 927
+('Four of a kind', 6) 3KKKK 542 928
+('Four of a kind', 6) 4444A 759 929
+('Four of a kind', 6) 44484 894 930
+('Four of a kind', 6) 444Q4 226 931
+('Four of a kind', 6) 45444 911 932
+('Four of a kind', 6) 47444 392 933
+('Four of a kind', 6) 47777 435 934
+('Four of a kind', 6) 4T444 865 935
+('Four of a kind', 6) 4K444 477 936
+('Four of a kind', 6) 55535 684 937
+('Four of a kind', 6) 55545 346 938
+('Four of a kind', 6) 55556 883 939
+('Four of a kind', 6) 55558 861 940
+('Four of a kind', 6) 55575 169 941
+('Four of a kind', 6) 55Q55 84 942
+('Four of a kind', 6) 55A55 206 943
+('Four of a kind', 6) 58888 517 944
+('Four of a kind', 6) 5J555 672 945
+('Four of a kind', 6) 64666 78 946
+('Four of a kind', 6) 66566 779 947
+('Four of a kind', 6) 66663 140 948
+('Four of a kind', 6) 66696 917 949
+('Four of a kind', 6) 66866 459 950
+('Four of a kind', 6) 66J66 478 951
+('Four of a kind', 6) 66Q66 215 952
+('Four of a kind', 6) 72222 416 953
+('Four of a kind', 6) 73777 24 954
+('Four of a kind', 6) 76666 147 955
+('Four of a kind', 6) 77776 580 956
+('Four of a kind', 6) 7777Q 916 957
+('Four of a kind', 6) 77797 488 958
+('Four of a kind', 6) 777T7 426 959
+('Four of a kind', 6) 7J777 374 960
+('Four of a kind', 6) 83333 980 961
+('Four of a kind', 6) 87777 798 962
+('Four of a kind', 6) 88788 941 963
+('Four of a kind', 6) 88898 683 964
+('Four of a kind', 6) 88J88 25 965
+('Four of a kind', 6) 99499 607 966
+('Four of a kind', 6) 99969 283 967
+('Four of a kind', 6) 9999J 233 968
+('Four of a kind', 6) 9999K 563 969
+('Four of a kind', 6) 9AAAA 62 970
+('Four of a kind', 6) T4TTT 800 971
+('Four of a kind', 6) T5TTT 843 972
+('Four of a kind', 6) T6TTT 701 973
+('Four of a kind', 6) T7TTT 696 974
+('Four of a kind', 6) TTT2T 296 975
+('Four of a kind', 6) TTT3T 350 976
+('Four of a kind', 6) TTT8T 79 977
+('Four of a kind', 6) TTTJT 298 978
+('Four of a kind', 6) TTQTT 63 979
+('Four of a kind', 6) TTKTT 815 980
+('Four of a kind', 6) TKKKK 401 981
+('Four of a kind', 6) J4444 882 982
+('Four of a kind', 6) JJJ8J 317 983
+('Four of a kind', 6) Q3QQQ 310 984
+('Four of a kind', 6) Q6QQQ 418 985
+('Four of a kind', 6) Q7QQQ 506 986
+('Four of a kind', 6) Q8888 336 987
+('Four of a kind', 6) QJQQQ 770 988
+('Four of a kind', 6) QQQ4Q 498 989
+('Four of a kind', 6) QQQQA 345 990
+('Four of a kind', 6) K8888 314 991
+('Four of a kind', 6) KKK4K 329 992
+('Four of a kind', 6) KKKQK 119 993
+('Four of a kind', 6) KKKKJ 566 994
+('Four of a kind', 6) AKAAA 824 995
+('Four of a kind', 6) AA5AA 241 996
+('Four of a kind', 6) AA7AA 135 997
+('Four of a kind', 6) AA8AA 353 998
+('Four of a kind', 6) AAJAA 842 999
+('Five of a kind', 7) JJJJJ 762 1000
+249748283
+('High card', 1) 23579 396 1
+('High card', 1) 239T5 832 2
+('High card', 1) 248KA 173 3
+('High card', 1) 249TA 423 4
+('High card', 1) 25648 606 5
+('High card', 1) 26398 539 6
+('High card', 1) 26785 726 7
+('High card', 1) 273T8 602 8
+('High card', 1) 2847Q 321 9
+('High card', 1) 28547 766 10
+('High card', 1) 28A34 997 11
+('High card', 1) 2934A 869 12
+('High card', 1) 29K4T 69 13
+('High card', 1) 29KT6 973 14
+('High card', 1) 2T3A5 920 15
+('High card', 1) 2K37A 176 16
+('High card', 1) 2KQA8 179 17
+('High card', 1) 2AK9T 249 18
+('High card', 1) 3275T 553 19
+('High card', 1) 32T98 475 20
+('High card', 1) 34Q8K 291 21
+('High card', 1) 3679K 676 22
+('High card', 1) 3789A 583 23
+('High card', 1) 39K56 958 24
+('High card', 1) 3T926 487 25
+('High card', 1) 3TKA8 823 26
+('High card', 1) 3A69K 780 27
+('High card', 1) 3A82K 891 28
+('High card', 1) 3A8T9 951 29
+('High card', 1) 3AT6Q 693 30
+('High card', 1) 42K3T 955 31
+('High card', 1) 43752 88 32
+('High card', 1) 438K5 184 33
+('High card', 1) 45762 496 34
+('High card', 1) 487K5 142 35
+('High card', 1) 4K9A6 748 36
+('High card', 1) 4A6TQ 281 37
+('High card', 1) 4A96Q 23 38
+('High card', 1) 4A973 35 39
+('High card', 1) 4AK27 889 40
+('High card', 1) 564KA 505 41
+('High card', 1) 5QT4K 592 42
+('High card', 1) 5K38A 656 43
+('High card', 1) 5A273 519 44
+('High card', 1) 62347 627 45
+('High card', 1) 6329Q 944 46
+('High card', 1) 67Q8T 186 47
+('High card', 1) 68T3Q 550 48
+('High card', 1) 69235 777 49
+('High card', 1) 69274 645 50
+('High card', 1) 69QK2 743 51
+('High card', 1) 69K87 264 52
+('High card', 1) 6Q297 601 53
+('High card', 1) 6QK48 114 54
+('High card', 1) 6QA4K 297 55
+('High card', 1) 723Q9 932 56
+('High card', 1) 72T56 2 57
+('High card', 1) 73TK2 258 58
+('High card', 1) 742K5 223 59
+('High card', 1) 7452Q 254 60
+('High card', 1) 74TQA 783 61
+('High card', 1) 754KQ 541 62
+('High card', 1) 756AK 839 63
+('High card', 1) 7685Q 862 64
+('High card', 1) 79853 94 65
+('High card', 1) 7T84K 708 66
+('High card', 1) 82A36 197 67
+('High card', 1) 836T4 982 68
+('High card', 1) 83Q52 939 69
+('High card', 1) 8562T 124 70
+('High card', 1) 8764Q 934 71
+('High card', 1) 87K35 820 72
+('High card', 1) 87A62 584 73
+('High card', 1) 8A257 463 74
+('High card', 1) 8ATQ3 315 75
+('High card', 1) 8AK59 46 76
+('High card', 1) 92QAK 220 77
+('High card', 1) 9376T 571 78
+('High card', 1) 9438T 97 79
+('High card', 1) 94Q72 853 80
+('High card', 1) 967TA 774 81
+('High card', 1) 96Q47 192 82
+('High card', 1) 974KT 752 83
+('High card', 1) 978T4 389 84
+('High card', 1) 98T72 1 85
+('High card', 1) 9T8QK 224 86
+('High card', 1) 9Q26A 874 87
+('High card', 1) T456Q 617 88
+('High card', 1) T4729 243 89
+('High card', 1) T829Q 405 90
+('High card', 1) T8973 530 91
+('High card', 1) T8QA5 349 92
+('High card', 1) TQ3K6 293 93
+('High card', 1) TQ47K 472 94
+('High card', 1) TQ49A 429 95
+('High card', 1) TQAK3 926 96
+('High card', 1) TK8A7 253 97
+('High card', 1) TA26Q 11 98
+('High card', 1) TA7K2 831 99
+('High card', 1) Q2943 860 100
+('High card', 1) Q5384 170 101
+('High card', 1) Q57KT 587 102
+('High card', 1) Q84K9 457 103
+('High card', 1) Q9A43 559 104
+('High card', 1) QT837 294 105
+('High card', 1) QTK4A 268 106
+('High card', 1) QK235 362 107
+('High card', 1) QA39K 900 108
+('High card', 1) K249A 51 109
+('High card', 1) K6275 414 110
+('High card', 1) K7935 760 111
+('High card', 1) K7Q95 596 112
+('High card', 1) K9572 746 113
+('High card', 1) KAQ85 594 114
+('High card', 1) A34QT 987 115
+('High card', 1) A4Q52 369 116
+('High card', 1) A4K7T 275 117
+('High card', 1) A7K86 688 118
+('High card', 1) A86K3 364 119
+('High card', 1) A8957 789 120
+('High card', 1) A89K6 127 121
+('High card', 1) AT934 613 122
+('One pair', 2) J28TQ 32 123
+('One pair', 2) J2934 918 124
+('One pair', 2) J2KA5 422 125
+('One pair', 2) J369T 304 126
+('One pair', 2) J3QK2 452 127
+('One pair', 2) J3KQT 109 128
+('One pair', 2) J462Q 851 129
+('One pair', 2) J5K64 940 130
+('One pair', 2) J8467 543 131
+('One pair', 2) J8964 845 132
+('One pair', 2) J9Q37 884 133
+('One pair', 2) JT753 99 134
+('One pair', 2) JK247 810 135
+('One pair', 2) JK2TA 252 136
+('One pair', 2) JK2Q6 992 137
+('One pair', 2) JA48Q 547 138
+('One pair', 2) 2249A 6 139
+('One pair', 2) 23K55 340 140
+('One pair', 2) 244TQ 569 141
+('One pair', 2) 24966 978 142
+('One pair', 2) 253Q5 692 143
+('One pair', 2) 254AJ 785 144
+('One pair', 2) 2624K 512 145
+('One pair', 2) 263T6 632 146
+('One pair', 2) 268JA 71 147
+('One pair', 2) 28JQ5 943 148
+('One pair', 2) 286T6 572 149
+('One pair', 2) 2968J 698 150
+('One pair', 2) 2973J 458 151
+('One pair', 2) 29TQ2 790 152
+('One pair', 2) 2Q755 307 153
+('One pair', 2) 2Q9J7 647 154
+('One pair', 2) 2KJ95 644 155
+('One pair', 2) 2K3J7 515 156
+('One pair', 2) 2K9TK 48 157
+('One pair', 2) 2A57J 965 158
+('One pair', 2) 2A6KA 959 159
+('One pair', 2) 2A94A 355 160
+('One pair', 2) 2AAT9 532 161
+('One pair', 2) 3J4A6 313 162
+('One pair', 2) 334T2 826 163
+('One pair', 2) 337TQ 65 164
+('One pair', 2) 337Q2 801 165
+('One pair', 2) 345J2 710 166
+('One pair', 2) 36238 151 167
+('One pair', 2) 36T99 86 168
+('One pair', 2) 38KA8 295 169
+('One pair', 2) 394JK 570 170
+('One pair', 2) 3T4J2 989 171
+('One pair', 2) 3K32Q 240 172
+('One pair', 2) 3A398 914 173
+('One pair', 2) 3AQ5J 441 174
+('One pair', 2) 43K8J 335 175
+('One pair', 2) 46J79 827 176
+('One pair', 2) 46236 802 177
+('One pair', 2) 47243 365 178
+('One pair', 2) 48QQ9 299 179
+('One pair', 2) 4969A 367 180
+('One pair', 2) 49QKJ 425 181
+('One pair', 2) 4T2J6 59 182
+('One pair', 2) 4TA5A 363 183
+('One pair', 2) 4Q668 334 184
+('One pair', 2) 4Q9TQ 887 185
+('One pair', 2) 4K4Q2 137 186
+('One pair', 2) 4K7Q4 89 187
+('One pair', 2) 4KA46 309 188
+('One pair', 2) 4AT77 896 189
+('One pair', 2) 5J37A 595 190
+('One pair', 2) 5J64A 251 191
+('One pair', 2) 5J6A2 864 192
+('One pair', 2) 53493 756 193
+('One pair', 2) 55328 782 194
+('One pair', 2) 5546T 615 195
+('One pair', 2) 596T5 17 196
+('One pair', 2) 59TJQ 430 197
+('One pair', 2) 59TAJ 901 198
+('One pair', 2) 5TK6T 662 199
+('One pair', 2) 5Q5T2 386 200
+('One pair', 2) 5QQA2 510 201
+('One pair', 2) 5KJ6A 465 202
+('One pair', 2) 5A448 520 203
+('One pair', 2) 5A8QA 674 204
+('One pair', 2) 6J378 755 205
+('One pair', 2) 63JA7 100 206
+('One pair', 2) 63T83 753 207
+('One pair', 2) 64TQ6 867 208
+('One pair', 2) 664QK 474 209
+('One pair', 2) 68355 442 210
+('One pair', 2) 69577 518 211
+('One pair', 2) 6TTQK 899 212
+('One pair', 2) 6Q4Q2 285 213
+('One pair', 2) 6QKQ5 711 214
+('One pair', 2) 6K5K3 551 215
+('One pair', 2) 73479 694 216
+('One pair', 2) 73QTT 561 217
+('One pair', 2) 76T86 38 218
+('One pair', 2) 76KK3 906 219
+('One pair', 2) 77392 393 220
+('One pair', 2) 779A5 695 221
+('One pair', 2) 7894J 599 222
+('One pair', 2) 797TA 749 223
+('One pair', 2) 7988T 164 224
+('One pair', 2) 7T5KJ 967 225
+('One pair', 2) 7K53J 394 226
+('One pair', 2) 7A4QJ 903 227
+('One pair', 2) 7A5A2 808 228
+('One pair', 2) 7A6J5 848 229
+('One pair', 2) 82434 207 230
+('One pair', 2) 83599 482 231
+('One pair', 2) 84287 31 232
+('One pair', 2) 846A4 15 233
+('One pair', 2) 849TJ 733 234
+('One pair', 2) 85A2J 528 235
+('One pair', 2) 85A2A 58 236
+('One pair', 2) 86JAQ 589 237
+('One pair', 2) 8727A 969 238
+('One pair', 2) 87289 893 239
+('One pair', 2) 8786K 818 240
+('One pair', 2) 884T7 682 241
+('One pair', 2) 885QT 709 242
+('One pair', 2) 89QJ4 648 243
+('One pair', 2) 8T3KT 715 244
+('One pair', 2) 8T528 525 245
+('One pair', 2) 8T829 576 246
+('One pair', 2) 8T87Q 669 247
+('One pair', 2) 8T89K 356 248
+('One pair', 2) 8K839 857 249
+('One pair', 2) 8KT5K 154 250
+('One pair', 2) 8KAAQ 514 251
+('One pair', 2) 8AJ95 108 252
+('One pair', 2) 8AQ83 55 253
+('One pair', 2) 934A9 952 254
+('One pair', 2) 95QJK 219 255
+('One pair', 2) 96625 922 256
+('One pair', 2) 96Q3J 702 257
+('One pair', 2) 97J8A 892 258
+('One pair', 2) 977QK 908 259
+('One pair', 2) 9985Q 267 260
+('One pair', 2) 99AT7 413 261
+('One pair', 2) 9Q443 451 262
+('One pair', 2) 9A83J 492 263
+('One pair', 2) TJ734 988 264
+('One pair', 2) TJ7Q6 612 265
+('One pair', 2) TJKA5 288 266
+('One pair', 2) T2352 95 267
+('One pair', 2) T3949 956 268
+('One pair', 2) T464K 768 269
+('One pair', 2) T4T52 579 270
+('One pair', 2) T68TA 56 271
+('One pair', 2) T6AKT 190 272
+('One pair', 2) T78J6 44 273
+('One pair', 2) T7957 509 274
+('One pair', 2) T83J2 257 275
+('One pair', 2) T8853 244 276
+('One pair', 2) T8T56 391 277
+('One pair', 2) T9489 975 278
+('One pair', 2) T97AJ 265 279
+('One pair', 2) TQ4QA 352 280
+('One pair', 2) TQT2A 830 281
+('One pair', 2) TQT68 720 282
+('One pair', 2) TK3J6 691 283
+('One pair', 2) TK4JA 968 284
+('One pair', 2) TA558 593 285
+('One pair', 2) Q2J9A 130 286
+('One pair', 2) Q3JT8 324 287
+('One pair', 2) Q4Q35 216 288
+('One pair', 2) Q5Q49 665 289
+('One pair', 2) Q6J57 272 290
+('One pair', 2) Q772T 400 291
+('One pair', 2) Q78AQ 432 292
+('One pair', 2) Q9937 47 293
+('One pair', 2) QTJ5K 666 294
+('One pair', 2) QT9T5 625 295
+('One pair', 2) QK29K 105 296
+('One pair', 2) QKT2T 639 297
+('One pair', 2) QA9KQ 177 298
+('One pair', 2) KJ7Q4 110 299
+('One pair', 2) K3J96 614 300
+('One pair', 2) K335T 928 301
+('One pair', 2) K3977 772 302
+('One pair', 2) K39KA 133 303
+('One pair', 2) K3Q4K 490 304
+('One pair', 2) K63JA 74 305
+('One pair', 2) K6K57 732 306
+('One pair', 2) K7QJ6 723 307
+('One pair', 2) K7K38 415 308
+('One pair', 2) K7KA2 758 309
+('One pair', 2) K7A4A 330 310
+('One pair', 2) K8628 196 311
+('One pair', 2) K8T9J 407 312
+('One pair', 2) K9J6Q 204 313
+('One pair', 2) K9232 737 314
+('One pair', 2) K96TK 187 315
+('One pair', 2) K9798 278 316
+('One pair', 2) KK823 705 317
+('One pair', 2) KAJQ6 454 318
+('One pair', 2) AJ32K 609 319
+('One pair', 2) A3TTQ 404 320
+('One pair', 2) A5994 208 321
+('One pair', 2) A59AK 412 322
+('One pair', 2) A5KAT 836 323
+('One pair', 2) A62A9 129 324
+('One pair', 2) A8J3Q 984 325
+('One pair', 2) A85Q8 605 326
+('One pair', 2) A8QQT 712 327
+('One pair', 2) A93JK 146 328
+('One pair', 2) ATJQK 128 329
+('One pair', 2) AQ72A 420 330
+('One pair', 2) AQAT7 28 331
+('One pair', 2) AK2J7 930 332
+('One pair', 2) AA56K 87 333
+('One pair', 2) AA839 834 334
+('Two pair', 3) 22775 618 335
+('Two pair', 3) 22QQ9 879 336
+('Two pair', 3) 22KKA 671 337
+('Two pair', 3) 22KAA 354 338
+('Two pair', 3) 23293 255 339
+('Two pair', 3) 24A4A 373 340
+('Two pair', 3) 25257 165 341
+('Two pair', 3) 25QQ2 81 342
+('Two pair', 3) 28829 757 343
+('Two pair', 3) 29592 739 344
+('Two pair', 3) 2T772 368 345
+('Two pair', 3) 2Q62Q 263 346
+('Two pair', 3) 2A662 214 347
+('Two pair', 3) 2A8A2 172 348
+('Two pair', 3) 3355K 660 349
+('Two pair', 3) 33AKA 961 350
+('Two pair', 3) 35566 652 351
+('Two pair', 3) 363Q6 158 352
+('Two pair', 3) 36T63 577 353
+('Two pair', 3) 37A37 483 354
+('Two pair', 3) 3TT83 91 355
+('Two pair', 3) 3Q4Q3 667 356
+('Two pair', 3) 3Q7Q3 700 357
+('Two pair', 3) 3A3KK 174 358
+('Two pair', 3) 3AA99 557 359
+('Two pair', 3) 42492 277 360
+('Two pair', 3) 4466K 163 361
+('Two pair', 3) 46564 438 362
+('Two pair', 3) 47AA4 591 363
+('Two pair', 3) 484Q8 747 364
+('Two pair', 3) 488QQ 194 365
+('Two pair', 3) 48K48 242 366
+('Two pair', 3) 49545 16 367
+('Two pair', 3) 49948 675 368
+('Two pair', 3) 49K4K 610 369
+('Two pair', 3) 49A4A 966 370
+('Two pair', 3) 4K4K8 303 371
+('Two pair', 3) 4AA34 707 372
+('Two pair', 3) 53395 560 373
+('Two pair', 3) 53TT5 462 374
+('Two pair', 3) 55266 659 375
+('Two pair', 3) 55TT8 460 376
+('Two pair', 3) 55Q88 375 377
+('Two pair', 3) 57257 729 378
+('Two pair', 3) 585A8 198 379
+('Two pair', 3) 58785 637 380
+('Two pair', 3) 5Q5Q9 724 381
+('Two pair', 3) 5QKK5 923 382
+('Two pair', 3) 5A5A4 813 383
+('Two pair', 3) 5A995 677 384
+('Two pair', 3) 622T6 763 385
+('Two pair', 3) 62762 481 386
+('Two pair', 3) 62Q6Q 9 387
+('Two pair', 3) 63863 144 388
+('Two pair', 3) 6655T 629 389
+('Two pair', 3) 66828 833 390
+('Two pair', 3) 67576 227 391
+('Two pair', 3) 68558 282 392
+('Two pair', 3) 69695 199 393
+('Two pair', 3) 6Q6QT 689 394
+('Two pair', 3) 6K6QK 575 395
+('Two pair', 3) 6K76K 436 396
+('Two pair', 3) 72233 248 397
+('Two pair', 3) 72288 546 398
+('Two pair', 3) 72AA7 166 399
+('Two pair', 3) 73327 502 400
+('Two pair', 3) 747Q4 411 401
+('Two pair', 3) 75454 271 402
+('Two pair', 3) 76786 731 403
+('Two pair', 3) 775QQ 343 404
+('Two pair', 3) 787KK 616 405
+('Two pair', 3) 79957 964 406
+('Two pair', 3) 799QQ 473 407
+('Two pair', 3) 7Q997 902 408
+('Two pair', 3) 7K7AK 697 409
+('Two pair', 3) 7A8A8 466 410
+('Two pair', 3) 82283 202 411
+('Two pair', 3) 82299 409 412
+('Two pair', 3) 822TT 863 413
+('Two pair', 3) 82A8A 565 414
+('Two pair', 3) 84864 234 415
+('Two pair', 3) 86683 838 416
+('Two pair', 3) 885T5 301 417
+('Two pair', 3) 88774 328 418
+('Two pair', 3) 977QQ 960 419
+('Two pair', 3) 9922T 141 420
+('Two pair', 3) 9988A 979 421
+('Two pair', 3) 9T9AT 898 422
+('Two pair', 3) 9QQ89 994 423
+('Two pair', 3) 9K5K5 161 424
+('Two pair', 3) 9K889 799 425
+('Two pair', 3) 9AKK9 410 426
+('Two pair', 3) T44TA 200 427
+('Two pair', 3) T4T88 236 428
+('Two pair', 3) T5T59 259 429
+('Two pair', 3) T5Q5Q 536 430
+('Two pair', 3) T62T2 931 431
+('Two pair', 3) T656T 292 432
+('Two pair', 3) T6TQ6 145 433
+('Two pair', 3) T73T3 270 434
+('Two pair', 3) T75T7 938 435
+('Two pair', 3) T97T9 85 436
+('Two pair', 3) TT7AA 805 437
+('Two pair', 3) TK5T5 624 438
+('Two pair', 3) TA77T 306 439
+('Two pair', 3) Q244Q 664 440
+('Two pair', 3) Q448Q 784 441
+('Two pair', 3) Q4Q99 80 442
+('Two pair', 3) Q66KQ 890 443
+('Two pair', 3) Q6996 635 444
+('Two pair', 3) Q7227 631 445
+('Two pair', 3) Q77Q2 573 446
+('Two pair', 3) Q88Q3 245 447
+('Two pair', 3) Q9Q9T 722 448
+('Two pair', 3) QT6TQ 148 449
+('Two pair', 3) QQ663 476 450
+('Two pair', 3) QQ996 139 451
+('Two pair', 3) QQTT2 796 452
+('Two pair', 3) K38K3 33 453
+('Two pair', 3) K56K6 954 454
+('Two pair', 3) K585K 237 455
+('Two pair', 3) K64K4 193 456
+('Two pair', 3) K66AK 338 457
+('Two pair', 3) K797K 854 458
+('Two pair', 3) K88TT 636 459
+('Two pair', 3) K8K8Q 399 460
+('Two pair', 3) K9393 366 461
+('Two pair', 3) K93K9 157 462
+('Two pair', 3) K9AA9 276 463
+('Two pair', 3) KTTK5 604 464
+('Two pair', 3) KTK66 402 465
+('Two pair', 3) KQ2QK 924 466
+('Two pair', 3) KAAK7 72 467
+('Two pair', 3) A22QQ 122 468
+('Two pair', 3) A2Q2A 98 469
+('Two pair', 3) A3322 239 470
+('Two pair', 3) A3AT3 919 471
+('Two pair', 3) A4KK4 427 472
+('Two pair', 3) A89A9 503 473
+('Two pair', 3) AQQ66 847 474
+('Three of a kind', 4) JJ2AK 18 475
+('Three of a kind', 4) J26J9 138 476
+('Three of a kind', 4) J2944 621 477
+('Three of a kind', 4) J2982 232 478
+('Three of a kind', 4) J2A62 981 479
+('Three of a kind', 4) J3352 156 480
+('Three of a kind', 4) J3552 82 481
+('Three of a kind', 4) J5422 380 482
+('Three of a kind', 4) J6T65 449 483
+('Three of a kind', 4) J72A7 381 484
+('Three of a kind', 4) J79K9 849 485
+('Three of a kind', 4) J8876 171 486
+('Three of a kind', 4) J944Q 180 487
+('Three of a kind', 4) J9Q2Q 50 488
+('Three of a kind', 4) JTJA3 620 489
+('Three of a kind', 4) JT8J6 921 490
+('Three of a kind', 4) JTQ5J 795 491
+('Three of a kind', 4) JTQ7T 480 492
+('Three of a kind', 4) JTK9T 279 493
+('Three of a kind', 4) JTKAK 590 494
+('Three of a kind', 4) JAK7K 342 495
+('Three of a kind', 4) 2J7T7 661 496
+('Three of a kind', 4) 2J842 888 497
+('Three of a kind', 4) 2J959 793 498
+('Three of a kind', 4) 2JT25 522 499
+('Three of a kind', 4) 22248 985 500
+('Three of a kind', 4) 223Q2 280 501
+('Three of a kind', 4) 22K26 397 502
+('Three of a kind', 4) 23J52 218 503
+('Three of a kind', 4) 23335 881 504
+('Three of a kind', 4) 2488J 104 505
+('Three of a kind', 4) 24888 225 506
+('Three of a kind', 4) 27797 628 507
+('Three of a kind', 4) 28J98 972 508
+('Three of a kind', 4) 2TT8T 189 509
+('Three of a kind', 4) 2Q5JQ 544 510
+('Three of a kind', 4) 2KK5K 622 511
+('Three of a kind', 4) 2A722 524 512
+('Three of a kind', 4) 2A888 821 513
+('Three of a kind', 4) 2AKAA 687 514
+('Three of a kind', 4) 3J3K8 14 515
+('Three of a kind', 4) 3JT55 77 516
+('Three of a kind', 4) 3JK93 54 517
+('Three of a kind', 4) 32JQQ 974 518
+('Three of a kind', 4) 323JT 993 519
+('Three of a kind', 4) 33324 634 520
+('Three of a kind', 4) 33632 73 521
+('Three of a kind', 4) 33TJ5 740 522
+('Three of a kind', 4) 33A35 66 523
+('Three of a kind', 4) 34338 806 524
+('Three of a kind', 4) 34442 970 525
+('Three of a kind', 4) 34633 111 526
+('Three of a kind', 4) 355Q5 513 527
+('Three of a kind', 4) 36676 716 528
+('Three of a kind', 4) 37877 996 529
+('Three of a kind', 4) 38QJ8 131 530
+('Three of a kind', 4) 38AAA 333 531
+('Three of a kind', 4) 42454 53 532
+('Three of a kind', 4) 42A22 21 533
+('Three of a kind', 4) 45Q44 942 534
+('Three of a kind', 4) 46676 311 535
+('Three of a kind', 4) 46KKK 885 536
+('Three of a kind', 4) 4939J 630 537
+('Three of a kind', 4) 49992 371 538
+('Three of a kind', 4) 4T3JT 655 539
+('Three of a kind', 4) 4TQ44 803 540
+('Three of a kind', 4) 4TK4J 331 541
+('Three of a kind', 4) 4QQQT 185 542
+('Three of a kind', 4) 4KK9K 120 543
+('Three of a kind', 4) 4KAJK 638 544
+('Three of a kind', 4) 5J5K7 8 545
+('Three of a kind', 4) 5J6K6 859 546
+('Three of a kind', 4) 5JQ52 523 547
+('Three of a kind', 4) 52262 250 548
+('Three of a kind', 4) 557T5 626 549
+('Three of a kind', 4) 55T5Q 846 550
+('Three of a kind', 4) 55Q59 428 551
+('Three of a kind', 4) 56J5T 379 552
+('Three of a kind', 4) 56J86 582 553
+('Three of a kind', 4) 56TJT 203 554
+('Three of a kind', 4) 5899J 949 555
+('Three of a kind', 4) 5TTT2 564 556
+('Three of a kind', 4) 5KK3J 149 557
+('Three of a kind', 4) 6J256 341 558
+('Three of a kind', 4) 6J88A 27 559
+('Three of a kind', 4) 63J35 229 560
+('Three of a kind', 4) 633K3 5 561
+('Three of a kind', 4) 63696 495 562
+('Three of a kind', 4) 644A4 403 563
+('Three of a kind', 4) 64T44 351 564
+('Three of a kind', 4) 6535J 195 565
+('Three of a kind', 4) 65777 162 566
+('Three of a kind', 4) 66624 913 567
+('Three of a kind', 4) 66K36 714 568
+('Three of a kind', 4) 6777Q 568 569
+('Three of a kind', 4) 67AJ6 719 570
+('Three of a kind', 4) 69667 382 571
+('Three of a kind', 4) 69686 915 572
+('Three of a kind', 4) 69T99 116 573
+('Three of a kind', 4) 69AAA 327 574
+('Three of a kind', 4) 6TJK6 30 575
+('Three of a kind', 4) 6T5JJ 549 576
+('Three of a kind', 4) 6TT7T 844 577
+('Three of a kind', 4) 6QT66 880 578
+('Three of a kind', 4) 7JJ9A 742 579
+('Three of a kind', 4) 7J735 326 580
+('Three of a kind', 4) 7J7Q3 581 581
+('Three of a kind', 4) 7JQ97 494 582
+('Three of a kind', 4) 72333 434 583
+('Three of a kind', 4) 727K7 447 584
+('Three of a kind', 4) 73T77 90 585
+('Three of a kind', 4) 74377 875 586
+('Three of a kind', 4) 75477 585 587
+('Three of a kind', 4) 75535 767 588
+('Three of a kind', 4) 77672 439 589
+('Three of a kind', 4) 776K7 907 590
+('Three of a kind', 4) 77752 706 591
+('Three of a kind', 4) 777Q2 548 592
+('Three of a kind', 4) 777Q8 537 593
+('Three of a kind', 4) 7888K 19 594
+('Three of a kind', 4) 79767 835 595
+('Three of a kind', 4) 79994 504 596
+('Three of a kind', 4) 7QJQ3 619 597
+('Three of a kind', 4) 7KT77 121 598
+('Three of a kind', 4) 7KK6K 871 599
+('Three of a kind', 4) 7AJ3A 210 600
+('Three of a kind', 4) 7A727 93 601
+('Three of a kind', 4) 7A7K7 641 602
+('Three of a kind', 4) 8J6K8 445 603
+('Three of a kind', 4) 8J9J7 376 604
+('Three of a kind', 4) 8JT77 990 605
+('Three of a kind', 4) 83222 623 606
+('Three of a kind', 4) 83933 878 607
+('Three of a kind', 4) 84388 134 608
+('Three of a kind', 4) 85JJA 39 609
+('Three of a kind', 4) 85655 485 610
+('Three of a kind', 4) 86885 446 611
+('Three of a kind', 4) 86QJQ 453 612
+('Three of a kind', 4) 88638 150 613
+('Three of a kind', 4) 88789 925 614
+('Three of a kind', 4) 88829 499 615
+('Three of a kind', 4) 88Q68 829 616
+('Three of a kind', 4) 88AT8 26 617
+('Three of a kind', 4) 8TJ99 45 618
+('Three of a kind', 4) 8TATJ 357 619
+('Three of a kind', 4) 8Q5J5 470 620
+('Three of a kind', 4) 8QTQQ 947 621
+('Three of a kind', 4) 8AAKJ 43 622
+('Three of a kind', 4) 9J9Q3 159 623
+('Three of a kind', 4) 92242 433 624
+('Three of a kind', 4) 933Q3 484 625
+('Three of a kind', 4) 94J59 945 626
+('Three of a kind', 4) 94996 209 627
+('Three of a kind', 4) 95553 508 628
+('Three of a kind', 4) 9599Q 649 629
+('Three of a kind', 4) 966A6 300 630
+('Three of a kind', 4) 98599 322 631
+('Three of a kind', 4) 99J36 41 632
+('Three of a kind', 4) 994A9 359 633
+('Three of a kind', 4) 997J3 467 634
+('Three of a kind', 4) 997J4 817 635
+('Three of a kind', 4) 99789 92 636
+('Three of a kind', 4) 9993T 228 637
+('Three of a kind', 4) 9994Q 527 638
+('Three of a kind', 4) 9T99A 812 639
+('Three of a kind', 4) 9Q939 765 640
+('Three of a kind', 4) 9A998 788 641
+('Three of a kind', 4) TJ95J 153 642
+('Three of a kind', 4) T2J6T 873 643
+('Three of a kind', 4) T3338 600 644
+('Three of a kind', 4) T3TT8 929 645
+('Three of a kind', 4) T5J7J 717 646
+('Three of a kind', 4) T5JTK 213 647
+('Three of a kind', 4) T55A5 909 648
+('Three of a kind', 4) T6J86 168 649
+('Three of a kind', 4) T66K6 417 650
+('Three of a kind', 4) T67JT 260 651
+('Three of a kind', 4) T6966 497 652
+('Three of a kind', 4) T6AJA 950 653
+('Three of a kind', 4) T7666 34 654
+('Three of a kind', 4) T7Q77 212 655
+('Three of a kind', 4) T89TT 730 656
+('Three of a kind', 4) TT7TA 822 657
+('Three of a kind', 4) TTT58 113 658
+('Three of a kind', 4) TTQT7 370 659
+('Three of a kind', 4) TTK4T 7 660
+('Three of a kind', 4) TKKK7 377 661
+('Three of a kind', 4) TAKKK 534 662
+('Three of a kind', 4) TAA9A 443 663
+('Three of a kind', 4) TAAA8 507 664
+('Three of a kind', 4) Q2224 608 665
+('Three of a kind', 4) Q3233 773 666
+('Three of a kind', 4) Q3QQ7 754 667
+('Three of a kind', 4) Q5255 444 668
+('Three of a kind', 4) Q5Q8J 856 669
+('Three of a kind', 4) Q6333 825 670
+('Three of a kind', 4) Q6QQ4 378 671
+('Three of a kind', 4) Q9KQQ 246 672
+('Three of a kind', 4) QTJ3J 261 673
+('Three of a kind', 4) QQ57Q 680 674
+('Three of a kind', 4) QQQ39 904 675
+('Three of a kind', 4) QQQ85 40 676
+('Three of a kind', 4) QQQ95 136 677
+('Three of a kind', 4) QK2KK 37 678
+('Three of a kind', 4) KJ84K 284 679
+('Three of a kind', 4) KJ99Q 489 680
+('Three of a kind', 4) K226J 395 681
+('Three of a kind', 4) K4448 769 682
+('Three of a kind', 4) K9949 999 683
+('Three of a kind', 4) KTK8J 870 684
+('Three of a kind', 4) KQQQT 319 685
+('Three of a kind', 4) KK9KT 734 686
+('Three of a kind', 4) KKK8T 574 687
+('Three of a kind', 4) KKK8A 222 688
+('Three of a kind', 4) KKAK4 998 689
+('Three of a kind', 4) KA7AA 316 690
+('Three of a kind', 4) A2522 521 691
+('Three of a kind', 4) A2555 778 692
+('Three of a kind', 4) A36AA 273 693
+('Three of a kind', 4) A3KJA 986 694
+('Three of a kind', 4) A3A5A 927 695
+('Three of a kind', 4) A4888 348 696
+('Three of a kind', 4) A4AA8 61 697
+('Three of a kind', 4) A8JA7 797 698
+('Three of a kind', 4) A8444 744 699
+('Three of a kind', 4) AAQ7A 811 700
+('Three of a kind', 4) AAA34 653 701
+('Three of a kind', 4) AAA56 905 702
+('Full house', 5) J33KK 117 703
+('Full house', 5) J7AA7 751 704
+('Full house', 5) JTT66 421 705
+('Full house', 5) JAA99 725 706
+('Full house', 5) 2J332 347 707
+('Full house', 5) 222TT 872 708
+('Full house', 5) 22QQ2 235 709
+('Full house', 5) 23322 876 710
+('Full house', 5) 23332 658 711
+('Full house', 5) 25255 3 712
+('Full house', 5) 26266 75 713
+('Full house', 5) 28282 828 714
+('Full house', 5) 2KK2K 360 715
+('Full house', 5) 2AA22 807 716
+('Full house', 5) 3J553 440 717
+('Full house', 5) 3J773 491 718
+('Full house', 5) 3J883 877 719
+('Full house', 5) 33939 809 720
+('Full house', 5) 3434J 125 721
+('Full house', 5) 36336 681 722
+('Full house', 5) 36636 221 723
+('Full house', 5) 37733 670 724
+('Full house', 5) 3T3TT 461 725
+('Full house', 5) 3TTJ3 238 726
+('Full house', 5) 3KK3K 344 727
+('Full house', 5) 4JT4T 188 728
+('Full house', 5) 44222 325 729
+('Full house', 5) 44224 289 730
+('Full house', 5) 44554 886 731
+('Full house', 5) 44TT4 611 732
+('Full house', 5) 44AAJ 448 733
+('Full house', 5) 45455 588 734
+('Full house', 5) 46644 962 735
+('Full house', 5) 48844 855 736
+('Full house', 5) 4T4TT 437 737
+('Full house', 5) 4KKJ4 175 738
+('Full house', 5) 53353 535 739
+('Full house', 5) 55665 750 740
+('Full house', 5) 58885 558 741
+('Full house', 5) 59955 22 742
+('Full house', 5) 6JKK6 390 743
+('Full house', 5) 62226 101 744
+('Full house', 5) 64466 320 745
+('Full house', 5) 666TT 804 746
+('Full house', 5) 66868 745 747
+('Full house', 5) 66KK6 408 748
+('Full house', 5) 66AJA 155 749
+('Full house', 5) 6969J 578 750
+('Full house', 5) 69996 112 751
+('Full house', 5) 7J766 286 752
+('Full house', 5) 75757 76 753
+('Full house', 5) 76677 115 754
+('Full house', 5) 77222 794 755
+('Full house', 5) 77722 96 756
+('Full house', 5) 77799 633 757
+('Full house', 5) 77888 946 758
+('Full house', 5) 77TTT 556 759
+('Full house', 5) 77KKK 107 760
+('Full house', 5) 7Q7QQ 977 761
+('Full house', 5) 8282J 70 762
+('Full house', 5) 85558 642 763
+('Full house', 5) 86J86 262 764
+('Full house', 5) 86868 181 765
+('Full house', 5) 88228 910 766
+('Full house', 5) 88899 771 767
+('Full house', 5) 88T8T 933 768
+('Full house', 5) 8TJ8T 456 769
+('Full house', 5) 8AA88 976 770
+('Full house', 5) 9J339 957 771
+('Full house', 5) 9292J 230 772
+('Full house', 5) 92992 657 773
+('Full house', 5) 93399 511 774
+('Full house', 5) 94994 266 775
+('Full house', 5) 95599 290 776
+('Full house', 5) 98989 431 777
+('Full house', 5) 99444 776 778
+('Full house', 5) 99AAA 603 779
+('Full house', 5) 9TJT9 728 780
+('Full house', 5) 9A9A9 479 781
+('Full house', 5) T22TT 727 782
+('Full house', 5) T66TT 971 783
+('Full house', 5) T999T 936 784
+('Full house', 5) TT88T 455 785
+('Full house', 5) TTT99 866 786
+('Full house', 5) TQQQT 791 787
+('Full house', 5) Q3J3Q 651 788
+('Full house', 5) Q3Q3Q 663 789
+('Full house', 5) Q44QJ 529 790
+('Full house', 5) Q5J5Q 567 791
+('Full house', 5) Q55Q5 555 792
+('Full house', 5) Q9JQ9 837 793
+('Full house', 5) QQ333 858 794
+('Full house', 5) QQ8Q8 247 795
+('Full house', 5) QKQKQ 786 796
+('Full house', 5) QKQKK 963 797
+('Full house', 5) QAAAQ 160 798
+('Full house', 5) K4K4K 540 799
+('Full house', 5) K5K55 586 800
+('Full house', 5) K6K6K 269 801
+('Full house', 5) K88KK 640 802
+('Full house', 5) K8K88 383 803
+('Full house', 5) K9K99 953 804
+('Full house', 5) KTTKK 703 805
+('Full house', 5) KK222 64 806
+('Full house', 5) KK333 526 807
+('Full house', 5) KK5K5 384 808
+('Full house', 5) KKAAK 852 809
+('Full house', 5) A3AA3 103 810
+('Full house', 5) A666A 995 811
+('Full house', 5) A777A 673 812
+('Full house', 5) A77AA 545 813
+('Full house', 5) A8A8J 36 814
+('Full house', 5) ATTTA 385 815
+('Full house', 5) AKKAA 332 816
+('Full house', 5) AA444 983 817
+('Full house', 5) AA5A5 471 818
+('Full house', 5) AA88A 424 819
+('Full house', 5) AATJT 205 820
+('Full house', 5) AAA22 182 821
+('Four of a kind', 6) JJ878 10 822
+('Four of a kind', 6) J3383 231 823
+('Four of a kind', 6) J33T3 387 824
+('Four of a kind', 6) J353J 83 825
+('Four of a kind', 6) J3QJ3 912 826
+('Four of a kind', 6) J44JK 201 827
+('Four of a kind', 6) J5JJ4 372 828
+('Four of a kind', 6) J55J4 554 829
+('Four of a kind', 6) J5595 935 830
+('Four of a kind', 6) J5888 67 831
+('Four of a kind', 6) J664J 123 832
+('Four of a kind', 6) J72JJ 486 833
+('Four of a kind', 6) J88J9 816 834
+('Four of a kind', 6) JTJT5 850 835
+('Four of a kind', 6) JT7TT 690 836
+('Four of a kind', 6) JTT4T 13 837
+('Four of a kind', 6) JTT8T 106 838
+('Four of a kind', 6) JKQKK 685 839
+('Four of a kind', 6) 2J522 57 840
+('Four of a kind', 6) 2JTTT 781 841
+('Four of a kind', 6) 22J27 52 842
+('Four of a kind', 6) 22228 469 843
+('Four of a kind', 6) 22232 668 844
+('Four of a kind', 6) 222K2 167 845
+('Four of a kind', 6) 23JJ3 118 846
+('Four of a kind', 6) 26666 60 847
+('Four of a kind', 6) 2KKKK 191 848
+('Four of a kind', 6) 3JJTT 318 849
+('Four of a kind', 6) 32J33 12 850
+('Four of a kind', 6) 33336 256 851
+('Four of a kind', 6) 335J3 178 852
+('Four of a kind', 6) 33533 468 853
+('Four of a kind', 6) 337J3 20 854
+('Four of a kind', 6) 33933 308 855
+('Four of a kind', 6) 33K33 516 856
+('Four of a kind', 6) 34444 143 857
+('Four of a kind', 6) 366JJ 736 858
+('Four of a kind', 6) 3TJTT 533 859
+('Four of a kind', 6) 3Q333 761 860
+('Four of a kind', 6) 3KKKK 542 861
+('Four of a kind', 6) 4J744 764 862
+('Four of a kind', 6) 434J4 305 863
+('Four of a kind', 6) 444JT 398 864
+('Four of a kind', 6) 4444A 759 865
+('Four of a kind', 6) 44484 894 866
+('Four of a kind', 6) 444Q4 226 867
+('Four of a kind', 6) 45444 911 868
+('Four of a kind', 6) 466J6 699 869
+('Four of a kind', 6) 47444 392 870
+('Four of a kind', 6) 47777 435 871
+('Four of a kind', 6) 49JJ4 840 872
+('Four of a kind', 6) 49J44 501 873
+('Four of a kind', 6) 4T444 865 874
+('Four of a kind', 6) 4KJ44 152 875
+('Four of a kind', 6) 4K444 477 876
+('Four of a kind', 6) 4A44J 450 877
+('Four of a kind', 6) 55J25 552 878
+('Four of a kind', 6) 55J56 464 879
+('Four of a kind', 6) 55J5T 948 880
+('Four of a kind', 6) 55535 684 881
+('Four of a kind', 6) 55545 346 882
+('Four of a kind', 6) 55556 883 883
+('Four of a kind', 6) 55558 861 884
+('Four of a kind', 6) 55575 169 885
+('Four of a kind', 6) 5558J 287 886
+('Four of a kind', 6) 55Q55 84 887
+('Four of a kind', 6) 55A55 206 888
+('Four of a kind', 6) 58888 517 889
+('Four of a kind', 6) 6JKJ6 775 890
+('Four of a kind', 6) 64J44 597 891
+('Four of a kind', 6) 64666 78 892
+('Four of a kind', 6) 66J86 562 893
+('Four of a kind', 6) 66JQ6 646 894
+('Four of a kind', 6) 66566 779 895
+('Four of a kind', 6) 66663 140 896
+('Four of a kind', 6) 66696 917 897
+('Four of a kind', 6) 66866 459 898
+('Four of a kind', 6) 66Q66 215 899
+('Four of a kind', 6) 676J6 1000 900
+('Four of a kind', 6) 677JJ 274 901
+('Four of a kind', 6) 677J7 339 902
+('Four of a kind', 6) 7JJ66 388 903
+('Four of a kind', 6) 7J77Q 42 904
+('Four of a kind', 6) 72222 416 905
+('Four of a kind', 6) 73777 24 906
+('Four of a kind', 6) 76666 147 907
+('Four of a kind', 6) 777J2 741 908
+('Four of a kind', 6) 77776 580 909
+('Four of a kind', 6) 7777Q 916 910
+('Four of a kind', 6) 77797 488 911
+('Four of a kind', 6) 777T7 426 912
+('Four of a kind', 6) 779J7 49 913
+('Four of a kind', 6) 78J7J 895 914
+('Four of a kind', 6) 7877J 538 915
+('Four of a kind', 6) 7QJQQ 713 916
+('Four of a kind', 6) 83J3J 643 917
+('Four of a kind', 6) 83333 980 918
+('Four of a kind', 6) 8444J 679 919
+('Four of a kind', 6) 848J8 991 920
+('Four of a kind', 6) 87777 798 921
+('Four of a kind', 6) 88JT8 4 922
+('Four of a kind', 6) 88788 941 923
+('Four of a kind', 6) 8887J 678 924
+('Four of a kind', 6) 88898 683 925
+('Four of a kind', 6) 88QJ8 302 926
+('Four of a kind', 6) 9J99T 29 927
+('Four of a kind', 6) 9JQ99 102 928
+('Four of a kind', 6) 99499 607 929
+('Four of a kind', 6) 999J7 531 930
+('Four of a kind', 6) 99969 283 931
+('Four of a kind', 6) 9999K 563 932
+('Four of a kind', 6) 999KJ 358 933
+('Four of a kind', 6) 9AAAA 62 934
+('Four of a kind', 6) TJ9TT 787 935
+('Four of a kind', 6) T2TJJ 183 936
+('Four of a kind', 6) T4TTT 800 937
+('Four of a kind', 6) T5TJT 406 938
+('Four of a kind', 6) T5TTT 843 939
+('Four of a kind', 6) T6TTT 701 940
+('Four of a kind', 6) T7TTT 696 941
+('Four of a kind', 6) TTT2T 296 942
+('Four of a kind', 6) TTT3T 350 943
+('Four of a kind', 6) TTT8T 79 944
+('Four of a kind', 6) TTQTT 63 945
+('Four of a kind', 6) TTKTT 815 946
+('Four of a kind', 6) TKKKK 401 947
+('Four of a kind', 6) QJJ66 738 948
+('Four of a kind', 6) QJJKQ 819 949
+('Four of a kind', 6) Q3QQQ 310 950
+('Four of a kind', 6) Q6QQQ 418 951
+('Four of a kind', 6) Q7QQQ 506 952
+('Four of a kind', 6) Q8888 336 953
+('Four of a kind', 6) QQ2QJ 323 954
+('Four of a kind', 6) QQ4QJ 868 955
+('Four of a kind', 6) QQQ4Q 498 956
+('Four of a kind', 6) QQQQA 345 957
+('Four of a kind', 6) KJ777 211 958
+('Four of a kind', 6) KJ888 718 959
+('Four of a kind', 6) K8888 314 960
+('Four of a kind', 6) K9KJK 654 961
+('Four of a kind', 6) KK7JJ 126 962
+('Four of a kind', 6) KKK4K 329 963
+('Four of a kind', 6) KKKQK 119 964
+('Four of a kind', 6) A555J 337 965
+('Four of a kind', 6) A7AJJ 735 966
+('Four of a kind', 6) AKAAA 824 967
+('Four of a kind', 6) AA5AA 241 968
+('Four of a kind', 6) AA7AA 135 969
+('Four of a kind', 6) AA8AA 353 970
+('Five of a kind', 7) JJJJJ 762 971
+('Five of a kind', 7) JJJ8J 317 972
+('Five of a kind', 7) JJ333 897 973
+('Five of a kind', 7) JJ99J 598 974
+('Five of a kind', 7) JJTTT 419 975
+('Five of a kind', 7) JJAAA 500 976
+('Five of a kind', 7) J4444 882 977
+('Five of a kind', 7) J77J7 792 978
+('Five of a kind', 7) J88J8 937 979
+('Five of a kind', 7) 22J2J 312 980
+('Five of a kind', 7) 2222J 493 981
+('Five of a kind', 7) 333J3 814 982
+('Five of a kind', 7) 44JJ4 841 983
+('Five of a kind', 7) 5JJ55 686 984
+('Five of a kind', 7) 5J555 672 985
+('Five of a kind', 7) 66JJJ 361 986
+('Five of a kind', 7) 66J6J 217 987
+('Five of a kind', 7) 66J66 478 988
+('Five of a kind', 7) 7J777 374 989
+('Five of a kind', 7) 88J88 25 990
+('Five of a kind', 7) 99JJ9 721 991
+('Five of a kind', 7) 9999J 233 992
+('Five of a kind', 7) TTTJT 298 993
+('Five of a kind', 7) QJJQJ 650 994
+('Five of a kind', 7) QJQQQ 770 995
+('Five of a kind', 7) QQQJJ 68 996
+('Five of a kind', 7) KJJKJ 704 997
+('Five of a kind', 7) KJKJK 132 998
+('Five of a kind', 7) KKKKJ 566 999
+('Five of a kind', 7) AAJAA 842 1000
+248029057
