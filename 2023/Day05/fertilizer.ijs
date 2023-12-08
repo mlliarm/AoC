@@ -20,7 +20,7 @@ index =. {{
 
 NB. ===============================  Reading data
 readfile =: 1!:1
-fn =. < '/home/milia/Documents/dev/AoC/AoC/2023/Day05/inputsmall.txt'
+fn =. < './inputsmall.txt'
 data =. readfile fn
 NB. data
 
@@ -65,7 +65,7 @@ dix4 =. (4 { [ - 3 { ]) key_indexes
 dix5 =. (5 { [ - 4 { ]) key_indexes
 dix6 =. (6 { [ - 5 { ]) key_indexes
 dix7 =. ($ barr) - ix6
-NB. dix0; dix1; dix2; dix3; dix4; dix5; dix6; dix7
+dix0; dix1; dix2; dix3; dix4; dix5; dix6; dix7
 
 NB. Box-lists of the seeds data and every other key and its data.
 seeds=. ;: > 0 { barr
@@ -89,6 +89,10 @@ NB. ==================Converting each map to a Nx2 array
 NB. Seed to Soil
 ds1
 
+> 0 { split > 1 { ds1
+> 1 { split > 1 { ds1
+> 2 { split > 1 { ds1
+
 NB. Soil to Fertilizer
 
 NB. Fertilizer to Water
@@ -101,6 +105,5 @@ NB. Temp to Humidity
 
 NB. Humidity to Location
 
-
-
-
+ds1 
+ds2
