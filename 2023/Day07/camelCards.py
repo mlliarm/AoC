@@ -73,7 +73,7 @@ class Hand:
             multivals = list(dict_to_odict(check_freq(thc)).values())
             self.name = types_of_hands[str(multivals)]
         else:
-            self.name = types_of_hands[str(self.get_multi_values())]
+            self.set_hand_name()
             
         
     def get_multi_values(self) -> list:
