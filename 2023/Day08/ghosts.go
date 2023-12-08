@@ -21,46 +21,55 @@ func GetInput(filename string) []string {
 	return strings.Split(clean_data, "\n")
 }
 
-func MakeNodesFromData(data []string) []Node {
-	node_list := make([]Node, len(data[2:]))
-	for i, v := range data[2:] {
+func MakeNodesFromData(data []string) map[string]Node {
+	node_map := make(map[string]string)
+	for _, v := range data[2:] {
 		a := strings.Split(v, " = ")
-		node := Node{Name: a[0], Left: a[1][1:4], Right: a[1][6:9]}
-		node_list[i] = node
+		node_map[a[0]] = a[1]
 	}
-	return node_list
+	nodes := make(map[string]Node)
+	for k, v := range node_map {
+		node := Node{Name: k, Left: v[1:4], Right: v[6:9]}
+		nodes[k] = node
+	}
+	return nodes
 }
 
-func main() {
-	data := GetInput("inputsmall.txt")
-	rules := data[0]
-	fmt.Println(rules)
-	fmt.Println(data[2:])
-	nodes := MakeNodesFromData(data)
-	for i, n := range nodes {
-		fmt.Println(i, n.Name, n.Left, n.Right)
-	}
-
+func PartOneSolution(nodes map[string]Node, rules string) int {
 	next := Node{}
-	step := 0
-	for _, direction := range rules {
-		for _, n := range nodes {
-			if string(direction) == "R" {
-				if n.Name == n.Right {
-					next.Name = n.Right
-					step++
+	steps := 0
+	init := nodes["AAA"]
+	for next.Name != "ZZZ" {
+		for _, direction := range rules {
+			d := string(direction)
+			if d == "R" {
+				if init.Name != "ZZZ" {
+					next.Name = init.Right
+					init = nodes[init.Right]
+					steps++
 				} else {
-					continue
+					break
 				}
-			} else if string(direction) == "L" {
-				if n.Name == n.Left {
-					next.Name = n.Left
-					step++
+			} else if d == "L" {
+				if init.Name != "ZZZ" {
+					next.Name = init.Left
+					init = nodes[init.Left]
+					steps++
 				} else {
-					continue
+					break
 				}
 			}
 		}
 	}
-	fmt.Println(step)
+	return steps
+}
+
+func main() {
+	data := GetInput("input.txt")
+	rules := data[0]
+	nodes := MakeNodesFromData(data)
+
+	// Part 1 solution
+	steps := PartOneSolution(nodes, rules)
+	fmt.Println(steps)
 }
