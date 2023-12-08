@@ -92,7 +92,6 @@ def removekey(d: dict, key:str) -> dict:
     del r[key]
     return r
 
-
 def check_freq(x: str) -> dict:
     freq = dict()
     for c in set(x):
