@@ -6,30 +6,6 @@ def input_file(inputfile: str) -> list:
     return words
 
 def calibrate(word: str) -> int:
-    '''
-    nlist = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
-    for i in range(len(word)):
-        for n in nlist:
-            wordi = word[i:len(n)+i]
-            if wordi == "one":
-                word = word.replace("one", "1")
-            elif wordi == "two":
-                word = word.replace("two","2")
-            elif wordi == "three":
-                word = word.replace("three", "3")
-            elif wordi == "four":
-                word = word.replace("four", "4")
-            elif wordi == "five":
-                word = word.replace("five", "5")
-            elif wordi == "six":
-                word = word.replace("six", "6")
-            elif wordi == "seven":
-                word = word.replace("seven", "7")
-            elif wordi == "eight":
-                word = word.replace("eight", "8")
-            elif wordi == "nine":
-                word = word.replace("nine", "9")
-    '''
     nums = [s for s in list(word) if s.isdigit()]
     string = "".join(nums)
     return int(string[0]+string[-1])
