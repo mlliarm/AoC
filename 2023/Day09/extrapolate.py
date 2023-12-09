@@ -44,7 +44,7 @@ def extrapolate_back(l1: List, l2: List) -> List:
     l1.insert(0, -l2[0]+l1[0])
     return l1
 
-def PartOneSolution(data: Dict) -> int:
+def part_one_solution(data: Dict) -> int:
     res = 0
     for k,_ in enumerate(data):
         l = data[k]
@@ -52,7 +52,7 @@ def PartOneSolution(data: Dict) -> int:
         res += r
     return res
 
-def PartTwoSolution(data: Dict) -> int:
+def part_two_solution(data: Dict) -> int:
     res = 0
     for k,_ in enumerate(data):
         l = data[k]
@@ -64,10 +64,10 @@ def main():
     data = input_file("input.txt")
     
     # Part One 
-    print(PartOneSolution(data))
+    print(part_one_solution(data))
     
     # Part Two
-    print(PartTwoSolution(data))
+    print(part_two_solution(data))
 
 if __name__ == "__main__":
     main()
