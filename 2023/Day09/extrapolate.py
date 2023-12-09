@@ -21,9 +21,13 @@ def get_new_sequences(l: List) -> (List):
                 tmpl.append(tmp-x)
                 # print("tmp, tmp-x, tmpl: ", tmp, tmp-x,tmpl)
         l = l + [tmp+tmpl[-1]]
+        print(l)
+        return get_new_sequences(tmpl)
     else:
         tmpl.append(l)
-    return l
+        print(tmpl[0]+[0])
+        # pass
+    # return l
     
 
 def main():
@@ -31,9 +35,8 @@ def main():
     
     for k,v in enumerate(data):
         l = data[k]
-        res = get_new_sequences(l)
+        get_new_sequences(l)
         print(" ")
-        print(res)
 
 if __name__ == "__main__":
     main()
