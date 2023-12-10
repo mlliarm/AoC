@@ -82,65 +82,37 @@ func FindNeighbours(data []string, myDp DataPoint) []DataPoint {
 	return neighs
 }
 
-func GetNext(data []string, myDp DataPoint) DataPoint {
+func GetNext(data []string, myDp DataPoint) []DataPoint {
 	initNeighs := FindNeighbours(data, myDp)
 	next := DataPoint{Name: " "}
-	for next.Name != "S" {
+	possibleNextMove := []DataPoint{}
+	if next.Name != "S" {
 		for _, iNeigh := range initNeighs {
 			if iNeigh.Name == "." {
 				continue
-			} else if iNeigh.Name == "|" && iNeigh.Coordinates.y == myDp.Coordinates.y-1 {
-				next.Coordinates.x = myDp.Coordinates.x
-				next.Coordinates.y = myDp.Coordinates.y - 1
-				next.Name = string(data[next.Coordinates.y][next.Coordinates.x])
-			} else if iNeigh.Name == "|" && iNeigh.Coordinates.y == myDp.Coordinates.y+1 {
+			} else if (iNeigh.Name == "|" || iNeigh.Name == "L" || iNeigh.Name == "J") && iNeigh.Coordinates.y == myDp.Coordinates.y+1 {
 				next.Coordinates.x = myDp.Coordinates.x
 				next.Coordinates.y = myDp.Coordinates.y + 1
 				next.Name = string(data[next.Coordinates.y][next.Coordinates.x])
-			} else if iNeigh.Name == "-" && iNeigh.Coordinates.x == myDp.Coordinates.x+1 {
-				next.Coordinates.x = myDp.Coordinates.x + 1
-				next.Coordinates.y = myDp.Coordinates.y
-				next.Name = string(data[next.Coordinates.y][next.Coordinates.x])
-			} else if iNeigh.Name == "-" && iNeigh.Coordinates.x == myDp.Coordinates.x-1 {
-				next.Coordinates.x = myDp.Coordinates.x - 1
-				next.Coordinates.y = myDp.Coordinates.y
-				next.Name = string(data[next.Coordinates.y][next.Coordinates.x])
-			} else if iNeigh.Name == "L" && iNeigh.Coordinates.x == myDp.Coordinates.x-1 {
-				next.Coordinates.x = myDp.Coordinates.x - 1
-				next.Coordinates.y = myDp.Coordinates.y
-				next.Name = string(data[next.Coordinates.y][next.Coordinates.x])
-			} else if iNeigh.Name == "L" && iNeigh.Coordinates.y == myDp.Coordinates.y-1 {
+			} else if (iNeigh.Name == "|" || iNeigh.Name == "7" || iNeigh.Name == "F") && iNeigh.Coordinates.y == myDp.Coordinates.y-1 {
 				next.Coordinates.x = myDp.Coordinates.x
 				next.Coordinates.y = myDp.Coordinates.y - 1
 				next.Name = string(data[next.Coordinates.y][next.Coordinates.x])
-			} else if iNeigh.Name == "J" && iNeigh.Coordinates.y == myDp.Coordinates.y-1 {
-				next.Coordinates.x = myDp.Coordinates.x
-				next.Coordinates.y = myDp.Coordinates.y - 1
-				next.Name = string(data[next.Coordinates.y][next.Coordinates.x])
-			} else if iNeigh.Name == "J" && iNeigh.Coordinates.x == myDp.Coordinates.x+1 {
+			} else if (iNeigh.Name == "-" || iNeigh.Name == "J" || iNeigh.Name == "7") && iNeigh.Coordinates.x == myDp.Coordinates.x+1 {
 				next.Coordinates.x = myDp.Coordinates.x + 1
 				next.Coordinates.y = myDp.Coordinates.y
 				next.Name = string(data[next.Coordinates.y][next.Coordinates.x])
-			} else if iNeigh.Name == "7" && iNeigh.Coordinates.x == myDp.Coordinates.x+1 {
-				next.Coordinates.x = myDp.Coordinates.x + 1
-				next.Coordinates.y = myDp.Coordinates.y
-				next.Name = string(data[next.Coordinates.y][next.Coordinates.x])
-			} else if iNeigh.Name == "7" && iNeigh.Coordinates.y == myDp.Coordinates.y+1 {
-				next.Coordinates.x = myDp.Coordinates.x
-				next.Coordinates.y = myDp.Coordinates.y + 1
-				next.Name = string(data[next.Coordinates.y][next.Coordinates.x])
-			} else if iNeigh.Name == "F" && iNeigh.Coordinates.y == myDp.Coordinates.y+1 {
-				next.Coordinates.x = myDp.Coordinates.x
-				next.Coordinates.y = myDp.Coordinates.y + 1
-				next.Name = string(data[next.Coordinates.y][next.Coordinates.x])
-			} else if iNeigh.Name == "F" && iNeigh.Coordinates.x == myDp.Coordinates.x-1 {
+			} else if (iNeigh.Name == "-" || iNeigh.Name == "L" || iNeigh.Name == "F") && iNeigh.Coordinates.x == myDp.Coordinates.x-1 {
 				next.Coordinates.x = myDp.Coordinates.x - 1
 				next.Coordinates.y = myDp.Coordinates.y
 				next.Name = string(data[next.Coordinates.y][next.Coordinates.x])
 			}
+			possibleNextMove = append(possibleNextMove, next)
 		}
+	} else {
+		return possibleNextMove
 	}
-	return next
+	return possibleNextMove
 }
 
 func GetLargestDistance() {
@@ -148,11 +120,11 @@ func GetLargestDistance() {
 }
 
 func main() {
-	data := GetInput("inputsmall2.txt")
-	fmt.Println(data)
+	data := GetInput("input.txt")
+	// fmt.Println(data)
 
 	x, y := LocateStart(data)
-	// fmt.Println(x, y)
+	fmt.Println(x, y)
 
 	// fmt.Println(len(data[0]), len(data))
 	S := DataPoint{Coordinates: Pair{x: x, y: y}, Name: "S"}
@@ -162,6 +134,6 @@ func main() {
 	next := GetNext(data, S)
 	fmt.Println(next)
 
-	dps := AddCoordsToData(data)
-	fmt.Println(dps)
+	// dps := AddCoordsToData(data)
+	// fmt.Println(dps)
 }
