@@ -21,19 +21,6 @@ type DataPoint struct {
 	Name        string
 }
 
-// Convention: degrees start to coun
-// from Ox' axis, counterclockwise
-var pipes = map[string]Pipe{
-	"|": {Name: "|", DegreesOfBend: 180, Connecting: "NS"},
-	"-": {Name: "-", DegreesOfBend: 180, Connecting: "EW"},
-	"L": {Name: "L", DegreesOfBend: 90, Connecting: "NE"},
-	"J": {Name: "J", DegreesOfBend: 90, Connecting: "NW"},
-	"7": {Name: "7", DegreesOfBend: 90, Connecting: "SW"},
-	"F": {Name: "F", DegreesOfBend: 90, Connecting: "SE"},
-	".": {Name: ".", DegreesOfBend: 0, Connecting: ""},
-	"S": {Name: "S", DegreesOfBend: 1, Connecting: "?"},
-}
-
 func GetInput(filename string) []string {
 	file, err := os.ReadFile(filename)
 	if err != nil {
@@ -68,6 +55,7 @@ func AddCoordsToData(data []string) []DataPoint {
 	return datapoints
 }
 
+// Convention: y grows in index downwards, and x grows in index rightwards.
 func FindNeighbours(data []string, myDp DataPoint) []DataPoint {
 	dps := AddCoordsToData(data)
 	neighs := []DataPoint{}
@@ -129,15 +117,8 @@ func GetNextLegalMove(data []string, myDp DataPoint) []DataPoint {
 	return GetUniqueElements(possibleNextMove)
 }
 
-// func GetLargestDistance(data []string) {
-// 	x, y := LocateStart(data)
-// 	S := DataPoint{Coordinates: Pair{x: x, y: y}, Name: "S"}
-// 	nextLegalMove := GetNextLegalMove(data, S)
-// 	panic("tmp")
-// }
-
 func main() {
-	data := GetInput("input.txt")
+	data := GetInput("inputsmall2.txt")
 	// fmt.Println(data)
 
 	x, y := LocateStart(data)
