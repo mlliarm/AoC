@@ -82,7 +82,21 @@ func FindNeighbours(data []string, myDp DataPoint) []DataPoint {
 	return neighs
 }
 
-func GetNext(data []string, myDp DataPoint) []DataPoint {
+func GetUniqueElements(datapoints []DataPoint) []DataPoint {
+	uniqueDatapoints := []DataPoint{}
+	var tmpDp DataPoint
+	for _, dp := range datapoints {
+		if dp != tmpDp {
+			tmpDp = dp
+			uniqueDatapoints = append(uniqueDatapoints, tmpDp)
+		} else {
+			continue
+		}
+	}
+	return uniqueDatapoints
+}
+
+func GetNextLegalMove(data []string, myDp DataPoint) []DataPoint {
 	initNeighs := FindNeighbours(data, myDp)
 	next := DataPoint{Name: " "}
 	possibleNextMove := []DataPoint{}
@@ -110,14 +124,17 @@ func GetNext(data []string, myDp DataPoint) []DataPoint {
 			possibleNextMove = append(possibleNextMove, next)
 		}
 	} else {
-		return possibleNextMove
+		return GetUniqueElements(possibleNextMove)
 	}
-	return possibleNextMove
+	return GetUniqueElements(possibleNextMove)
 }
 
-func GetLargestDistance() {
-	panic("tmp")
-}
+// func GetLargestDistance(data []string) {
+// 	x, y := LocateStart(data)
+// 	S := DataPoint{Coordinates: Pair{x: x, y: y}, Name: "S"}
+// 	nextLegalMove := GetNextLegalMove(data, S)
+// 	panic("tmp")
+// }
 
 func main() {
 	data := GetInput("input.txt")
@@ -128,11 +145,11 @@ func main() {
 
 	// fmt.Println(len(data[0]), len(data))
 	S := DataPoint{Coordinates: Pair{x: x, y: y}, Name: "S"}
-	InitCoords := FindNeighbours(data, S)
-	fmt.Println(InitCoords) // [{{0 1} .} {{1 1} F} {{1 2} J} {{0 3} |} {{1 3} F}]
+	neighs := FindNeighbours(data, S)
+	fmt.Println("neighs:", neighs) // [{{0 1} .} {{1 1} F} {{1 2} J} {{0 3} |} {{1 3} F}]
 
-	next := GetNext(data, S)
-	fmt.Println(next)
+	next := GetNextLegalMove(data, S) // [{{111 30} F} {{112 31} 7}]
+	fmt.Println("Next moves:", next)
 
 	// dps := AddCoordsToData(data)
 	// fmt.Println(dps)
