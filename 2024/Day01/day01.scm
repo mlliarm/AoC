@@ -1,4 +1,5 @@
-;; AoC 2024, Day 01
+;; AoC Dec. 2024, Day 01
+;; Mi. Lia
 
 (import (chicken io)
         (chicken string)
@@ -47,7 +48,29 @@
     (cond
      ((and (null? l1) (null? l2)) '())
      (else
-      (cons (absolute-error (car l1) (car l2)) (abs-diff-of-lists (cdr l1) (cdr l2)))))))
+      (cons (absolute-error (car l1) (car l2))
+            (abs-diff-of-lists (cdr l1) (cdr l2)))))))
+
+
+;; Return multiplicity of number in a given list
+(define multi
+  (lambda (num l)
+    (cond
+     ((null? l) 0)
+     (else
+      (cond
+       ((eq? (car l) num)
+        (add1 (multi num (cdr l))))
+       (else (multi num (cdr l))))))))
+
+;; Return similarity score of each element of l1 on l2
+(define similarity
+  (lambda (l1 l2)
+    (cond
+     ((null? l1) '())
+     (else
+      (cons (* (car l1) (multi (car l1) l2))
+            (similarity (cdr l1) l2))))))
 
 ;; ==== Main program ====
 ;;
@@ -63,12 +86,20 @@
 (define data-r
   (right-elems data))
 
+(define data-li
+  (los-to-loi data-l))
+
+(define data-ri
+  (los-to-loi data-r))
+
 (define data-l-sort
-  (sort (los-to-loi data-l) <))
+  (sort data-li <))
 
 (define data-r-sort
-  (sort (los-to-loi data-r) <))
+  (sort data-ri <))
 
-;; Result
-
+;; Result for part 01
 (print (sum (abs-diff-of-lists data-l-sort data-r-sort)))
+
+;; Result for part 02
+(print (sum (similarity data-li data-ri)))
