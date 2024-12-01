@@ -1,6 +1,5 @@
 ;; AoC Dec. 2024, Day 01
 ;; Mi. Lia
-
 (import (chicken io)
         (chicken string)
         (chicken sort)
@@ -92,6 +91,7 @@
 (define data-ri
   (los-to-loi data-r))
 
+;; Sort data
 (define data-l-sort
   (sort data-li <))
 
