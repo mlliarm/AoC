@@ -2,8 +2,7 @@
 ;; Mi. Lia.
 
 (import (chicken io)
-        (chicken string)
-        (chicken sort))
+        (chicken string))
 
 ;; Reads lines into a list of strings
 (define read-input-file
@@ -60,7 +59,6 @@
      (else
       #f))))
      
-
 ;; Is the list of integers safe?
 (define safe?
   (lambda (lat)
@@ -80,20 +78,43 @@
         (add1 (multi a (cdr lat))))
        (else (multi a (cdr lat))))))))
 
+;; Remove element from list
+(define remove
+  (lambda (a lat)
+    (cond
+     ((null? lat) '())
+     ((equal? a (car lat)) (cdr lat))
+     (else
+      (cons (car lat) (remove a (cdr lat)))))))
+
+;; Quasi-safe returns true if by removing one element it's safe
+(define quasi-safe?
+  (lambda (lat)
+    (cond
+     ((null? lat) #f)
+     ((or (safe? lat)
+          (safe? (remove (car lat) lat))
+          (safe? (remove (cadr lat) lat))
+      #t))
+     (else
+      (quasi-safe? (cdr lat))))))
+
 ;; ================================== Main program ==============================================
 ;;
 ;; Input data as lolos
 (define data
   (conv-to-lolos
-   (read-input-file "full.dat")))
+   (read-input-file "test.dat")))
 
 ;; Convert strings to integers
 (define data-i
   (map los-to-loi data))
 
-
 ;; Part 1 solution
-(print (multi #t (map safe? data-i)))
+(print "Part 1 solution: " (multi #t (map safe? data-i)))
+
+;; Part 2 solution
+(print "Part 2 solution: " (multi #t (map quasi-safe? data-i)))
 
 
 
