@@ -69,14 +69,23 @@
      (safe-level-diff? lat)
      )))
      
-
+;; Count multiples of atom in given list of atoms
+(define multi
+  (lambda (a lat)
+    (cond
+     ((null? lat) 0)
+     (else
+      (cond
+       ((eq? (car lat) a)
+        (add1 (multi a (cdr lat))))
+       (else (multi a (cdr lat))))))))
 
 ;; ================================== Main program ==============================================
 ;;
 ;; Input data as lolos
 (define data
   (conv-to-lolos
-   (read-input-file "test.dat")))
+   (read-input-file "full.dat")))
 
 ;; Convert strings to integers
 (define data-i
@@ -84,6 +93,7 @@
 
 
 ;; Part 1 solution
+(print (multi #t (map safe? data-i)))
 
 
 
