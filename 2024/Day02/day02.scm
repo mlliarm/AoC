@@ -84,9 +84,12 @@
      (cond
       ((null? lat) '())
       ((safe? lat) lat)
-      ((not (safe? lat)) (my-drop (cddr lat)))
+      ((not (safe? lat)) (my-drop (cdr lat)))
       (else
-       (cons (cadr lat) (my-drop (cddr lat)))))))
+       ;(cons (cadr lat) (my-drop (cddr lat)))))))
+       ;(cons (car lat) (my-drop lat))))))
+       (my-drop (cdr (cdr lat)))))))
+       ;(my-drop (cdr lat))))))
 
 ;; Remove last element of list
 (define pop-last
@@ -103,42 +106,46 @@
      (else
       (my-take (pop-last (pop-last lat)))))))
 
-;; Merge two unsorted lists l1 and l2
-(define my-merge
-  (lambda (l1 l2)
-    (cond
-     ((and (null? l1) (null? l2)) '())
-     ((null? l1) l2)
-     ((null? l2) l1)
-     (else
-      (cons (car l1) (my-merge (cdr l1) l2))))))
-
 ;; Quasi-safe returns true if by removing one element it's safe
 (define quasi-safe?
   (lambda (lat)
     (cond
      ((null? lat) #f)
-     ((or (safe? lat)
-          (safe? (my-merge (my-take lat) (my-drop lat)))
-          (safe? (my-merge (my-take lat) (cdr (my-drop lat))))) #t)
+     ((safe? lat) #t)
+     ((safe? (append (my-take lat) (my-drop lat))) #t)
+     ;((safe? (append (my-take lat) (cdr (my-drop lat)))) #t)
+     ;((safe? (append (my-take lat) (pop-last (my-drop lat)))) #t)
+     ;((safe? (append (pop-last (my-take lat)) (my-drop lat))) #t)
+     ;((safe? (append (pop-last (my-take lat)) (cdr (my-drop lat)))) #t)
      (else #f))))
 
 ;; ================================== Main program ==============================================
 ;;
 ;; Input data as lolos
-(define data
+(define data-test
+  (conv-to-lolos
+   (read-input-file "full.dat")))
+
+(define data-full
   (conv-to-lolos
    (read-input-file "test.dat")))
 
 ;; Convert strings to integers
-(define data-i
-  (map los-to-loi data))
+(define data-test-i
+  (map los-to-loi data-test))
+
+(define data-full-i
+  (map los-to-loi data-full))
 
 ;; Part 1 solution
-(print "Part 1 solution: " (multi #t (map safe? data-i)))
+(print "Part 1 solution: " (multi #t (map safe? data-test-i)))
+(print "Part 1 full sol: " (multi #t (map safe? data-full-i)))
 
 ;; Part 2 solution
-(print "Part 2 solution: " (multi #t (map quasi-safe? data-i)))
+(print "Part 2 solution: " (multi #t (map quasi-safe? data-test-i)))
+(print "Part 2 full sol: " (multi #t (map quasi-safe? data-full-i))) ;; 852, 849, 949, 959
 
-
-
+;; Testing edge cases
+(print "Test: " (map quasi-safe? '((1 2 3 8 9) (1 1 2 3 4) (1 2 3 3 4) (1 20 3 4 5) (1 2 8 9 4) (1 8 9 2 4))))
+(print "Test: " (eq? '(map quasi-safe? '((1 2 3 8 9) (1 1 2 3 4) (1 2 3 3 4) (1 20 3 4 5) (1 2 8 9 4) (1 8 9 2 4)))
+                     '(#f #t #t #t #f #f)))
