@@ -78,14 +78,40 @@
         (add1 (multi a (cdr lat))))
        (else (multi a (cdr lat))))))))
 
-;; Remove element from list
-(define remove
-  (lambda (a lat)
+;; Drop front elements after it's safe
+(define my-drop
+   (lambda (lat)
+     (cond
+      ((null? lat) '())
+      ((safe? lat) lat)
+      ((not (safe? lat)) (my-drop (cddr lat)))
+      (else
+       (cons (cadr lat) (my-drop (cddr lat)))))))
+
+;; Remove last element of list
+(define pop-last
+  (lambda (lat)
+    (reverse (cdr (reverse lat)))))
+
+;; Take front elements up to safe?
+(define my-take
+  (lambda (lat)
     (cond
      ((null? lat) '())
-     ((equal? a (car lat)) (cdr lat))
+     ((safe? lat) lat)
+     ((not (safe? lat)) (my-take (pop-last lat)))
      (else
-      (cons (car lat) (remove a (cdr lat)))))))
+      (my-take (pop-last (pop-last lat)))))))
+
+;; Merge two unsorted lists l1 and l2
+(define my-merge
+  (lambda (l1 l2)
+    (cond
+     ((and (null? l1) (null? l2)) '())
+     ((null? l1) l2)
+     ((null? l2) l1)
+     (else
+      (cons (car l1) (my-merge (cdr l1) l2))))))
 
 ;; Quasi-safe returns true if by removing one element it's safe
 (define quasi-safe?
@@ -93,11 +119,9 @@
     (cond
      ((null? lat) #f)
      ((or (safe? lat)
-          (safe? (remove (car lat) lat))
-          (safe? (remove (cadr lat) lat))
-      #t))
-     (else
-      (quasi-safe? (cdr lat))))))
+          (safe? (my-merge (my-take lat) (my-drop lat)))
+          (safe? (my-merge (my-take lat) (cdr (my-drop lat))))) #t)
+     (else #f))))
 
 ;; ================================== Main program ==============================================
 ;;
