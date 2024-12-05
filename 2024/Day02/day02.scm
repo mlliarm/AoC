@@ -86,10 +86,7 @@
       ((safe? lat) lat)
       ((not (safe? lat)) (my-drop (cdr lat)))
       (else
-       ;(cons (cadr lat) (my-drop (cddr lat)))))))
-       ;(cons (car lat) (my-drop lat))))))
        (my-drop (cdr (cdr lat)))))))
-       ;(my-drop (cdr lat))))))
 
 ;; Remove last element of list
 (define pop-last
@@ -106,17 +103,27 @@
      (else
       (my-take (pop-last (pop-last lat)))))))
 
+(define first-x
+  (lambda (lat x)
+    (let ((tmp (length lat)))
+    (reverse (list-tail (reverse lat) (- tmp x))))))
+
+(define first-two
+  (lambda (lat)
+    (first-x lat 2)))
+
 ;; Quasi-safe returns true if by removing one element it's safe
 (define quasi-safe?
   (lambda (lat)
     (cond
      ((null? lat) #f)
-     ((safe? lat) #t)
-     ((safe? (append (my-take lat) (my-drop lat))) #t)
-     ;((safe? (append (my-take lat) (cdr (my-drop lat)))) #t)
-     ;((safe? (append (my-take lat) (pop-last (my-drop lat)))) #t)
-     ;((safe? (append (pop-last (my-take lat)) (my-drop lat))) #t)
-     ;((safe? (append (pop-last (my-take lat)) (cdr (my-drop lat)))) #t)
+     ((or
+       (safe? lat)
+       (safe? (cdr lat))
+       (safe? (append (first-x lat 1) (list-tail lat 2)))
+       (safe? (append (first-x lat 2) (list-tail lat 3)))
+       (safe? (append (first-x lat 3) (list-tail lat 4)))
+       (safe? (pop-last lat))) #t)
      (else #f))))
 
 ;; ================================== Main program ==============================================
@@ -143,9 +150,16 @@
 
 ;; Part 2 solution
 (print "Part 2 solution: " (multi #t (map quasi-safe? data-test-i)))
-(print "Part 2 full sol: " (multi #t (map quasi-safe? data-full-i))) ;; 852, 849, 949, 959
+(print "Part 2 full sol: " (multi #t (map quasi-safe? data-full-i))) ;; 852, 849, 949, 959, 562, 852
 
 ;; Testing edge cases
-(print "Test: " (map quasi-safe? '((1 2 3 8 9) (1 1 2 3 4) (1 2 3 3 4) (1 20 3 4 5) (1 2 8 9 4) (1 8 9 2 4))))
-(print "Test: " (eq? '(map quasi-safe? '((1 2 3 8 9) (1 1 2 3 4) (1 2 3 3 4) (1 20 3 4 5) (1 2 8 9 4) (1 8 9 2 4)))
-                     '(#f #t #t #t #f #f)))
+(print "True: " '(#f #t #t #t #f #f))
+(print "Test: " (map quasi-safe? '((1 2 3 8 9)
+                                   (1 1 2 3 4)
+                                   (1 2 3 3 4)
+                                   (1 20 3 4 5)
+                                   (1 2 8 9 4)
+                                   (1 8 9 2 4))))
+
+(print "Test: " (equal? (map quasi-safe? '((1 2 3 8 9) (1 1 2 3 4) (1 2 3 3 4) (1 20 3 4 5) (1 2 8 9 4) (1 8 9 2 4)))
+                        '(#f #t #t #t #f #f)))
