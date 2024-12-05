@@ -78,64 +78,53 @@
         (add1 (multi a (cdr lat))))
        (else (multi a (cdr lat))))))))
 
-;; Drop front elements after it's safe
-(define my-drop
-   (lambda (lat)
-     (cond
-      ((null? lat) '())
-      ((safe? lat) lat)
-      ((not (safe? lat)) (my-drop (cdr lat)))
-      (else
-       (my-drop (cdr (cdr lat)))))))
-
 ;; Remove last element of list
 (define pop-last
   (lambda (lat)
     (reverse (cdr (reverse lat)))))
-
-;; Take front elements up to safe?
-(define my-take
-  (lambda (lat)
-    (cond
-     ((null? lat) '())
-     ((safe? lat) lat)
-     ((not (safe? lat)) (my-take (pop-last lat)))
-     (else
-      (my-take (pop-last (pop-last lat)))))))
 
 (define first-x
   (lambda (lat x)
     (let ((tmp (length lat)))
     (reverse (list-tail (reverse lat) (- tmp x))))))
 
-(define first-two
-  (lambda (lat)
-    (first-x lat 2)))
-
 ;; Quasi-safe returns true if by removing one element it's safe
 (define quasi-safe?
   (lambda (lat)
-    (cond
-     ((null? lat) #f)
-     ((or
+    (let ((len (length lat)))
+    (if
+     (or
        (safe? lat)
        (safe? (cdr lat))
-       (safe? (append (first-x lat 1) (list-tail lat 2)))
-       (safe? (append (first-x lat 2) (list-tail lat 3)))
-       (safe? (append (first-x lat 3) (list-tail lat 4)))
-       (safe? (pop-last lat))) #t)
-     (else #f))))
+       (safe? (pop-last lat))
+       (cond
+        ((or (< len 5) (eq? len 5))
+           (or
+            (safe? (append (first-x lat 1) (list-tail lat 2)))
+            (safe? (append (first-x lat 2) (list-tail lat 3)))
+            (safe? (append (first-x lat 3) (list-tail lat 4)))
+            (safe? (append (first-x lat 4) (list-tail lat 5)))))
+        (else
+         (or
+          (safe? (append (first-x lat 1) (list-tail lat 2)))
+          (safe? (append (first-x lat 2) (list-tail lat 3)))
+          (safe? (append (first-x lat 3) (list-tail lat 4)))
+          (safe? (append (first-x lat 4) (list-tail lat 5)))
+          (safe? (append (first-x lat 5) (list-tail lat 6))))))
+       )
+     #t
+     #f))))
 
 ;; ================================== Main program ==============================================
 ;;
 ;; Input data as lolos
 (define data-test
   (conv-to-lolos
-   (read-input-file "full.dat")))
+   (read-input-file "test.dat")))
 
 (define data-full
   (conv-to-lolos
-   (read-input-file "test.dat")))
+   (read-input-file "full.dat")))
 
 ;; Convert strings to integers
 (define data-test-i
