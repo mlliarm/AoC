@@ -139,7 +139,7 @@
 
 ;; Part 2 solution
 (print "Part 2 solution: " (multi #t (map quasi-safe? data-test-i)))
-(print "Part 2 full sol: " (multi #t (map quasi-safe? data-full-i))) ;; 852, 849, 949, 959, 562, 852
+(print "Part 2 full sol: " (multi #t (map quasi-safe? data-full-i)))
 
 ;; Testing edge cases
 (print "True: " '(#f #t #t #t #f #f))
