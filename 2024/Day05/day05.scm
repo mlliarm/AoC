@@ -16,31 +16,47 @@
 (define data-full
    (read-input-file "full.dat"))
 
-
+;; Split lists of strings to vector of lists of strings
 (define get-volos
   (lambda (lat)
       (list-of-strings-split lat "|,")))
 
+;; Convert vector of lists of strings
+;; to list of lists of strings
 (define get-lolos
   (lambda (lat)
     (vector->list (get-volos lat))))
 
+;; Convert test data to lolos
 (define data-test-lolos
   (get-lolos data-test))
 
+;; Convert full data to lolos
 (define data-full-lolos
   (get-lolos data-full))
 
+;; Remove the lists that have length less than 3
+;; Keep the page updates lists
 (define page-updates
   (lambda (lat)
     (remove (lambda (x) (< (length x) 3)) lat)))
 
+;; Remove the lists that have length greater or equal to 3
+;; Keep the rules lists
 (define rules
   (lambda (lat)
     (remove (lambda (x) (not (< (length x) 3))) lat)))
 
+;; Test data split in two different lists of lists of strings 
 (define rules-test
   (rules data-test-lolos))
 
 (define page-updates-test
   (page-updates data-test-lolos))
+
+;; Full data split as the test data
+(define rules-full
+  (rules data-full-lolos))
+
+(define page-updates-full
+  (page-updates data-full-lolos))
