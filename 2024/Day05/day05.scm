@@ -5,8 +5,52 @@
 (import srfi-69)
 (import srfi-1)
 
+;; Main idea:
+
+;; 1. Break each page update list to (car page-update-list) and (cdr page-update-list),
+;; and cons those two together:
+;; (cons (car page-update-list) (cdr page-update-list))
+;;
+;; 2. Search in the rules pairs if there's a pair like the pairs you can get from the combination of the first element of the list above with the (cdr page-update-list) list.
+;; 3. If you find such a pair, then it's legal. If not, then no.
+;; 4. Do the same for every element of the original page-update list, except the last element.
+;; Maybe think of instead of a list like (a (b c d)) to have a hashtable hash(a (b c d)). Should make search faster.
 
 
+(define before?
+  (lambda (a b pair)
+    (cond
+     ((null? pair) #f)
+     (else
+      (and
+       (equal? (car pair) a)
+       (equal? (cadr pair) b))))))
+
+(define before-all?
+  (lambda (a b rules)
+    (cond
+     ((null? rules) #f)
+     ((not (before? a b (car rules))) #f)
+     (else
+      (before-all? a b (cdr rules))))))
+
+(define correct-order?
+  (lambda (rules update)
+    (define (correct? b-index result)
+      (print "bi: " b-index " res: " result)
+      (if (= b-index (length update))
+          (and #t result)
+          (correct? (add1 b-index)
+                    (before-all? (list-ref update 0)
+                                 (list-ref update b-index)
+                                 rules)
+                    )))
+    (cond
+     ((null? update) #f)
+     ((not (correct? 1 #t)) #f)
+     (else
+      (correct-order? rules (cdr update))))))
+      
 ;; ================================== Main program ==============================================
 ;;
 ;; Input data as lolos
@@ -60,3 +104,7 @@
 
 (define page-updates-full
   (page-updates data-full-lolos))
+
+;; Testing
+(for-each (lambda (x) (print x ": " (correct-order? rules-test x)))
+          page-updates-test)
