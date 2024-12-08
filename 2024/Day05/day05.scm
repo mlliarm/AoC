@@ -28,6 +28,7 @@
 
 (define before-all?
   (lambda (a b rules)
+    ;(print a b rules)
     (cond
      ((null? rules) #f)
      ((before? a b (car rules)) #t)
@@ -37,20 +38,23 @@
 (define correct-order?
   (lambda (rules update)
     (define (correct? b-index result)
-      ;(print update)
-      (print "bi: " b-index " res: " result)
-      (if (= b-index (length update))
-          (and #t result)
+      ;(print "bi: " b-index " res: " result)
+      (if (or
+           (= b-index (length update))
+           (equal? result #f))
+          result
           (correct? (add1 b-index)
                     (before-all? (list-ref update 0)
                                  (list-ref update b-index)
                                  rules)
                     )
-          ))
-    (cond
-     ((null? update) #f)
-     ((correct? 1 #t) (correct-order? rules (cdr update)))
-     (else #t))))
+          )
+      )
+    (if (not (null? update))
+        (if (correct? 1 #t)
+            (correct-order? rules (cdr update))
+            #f)
+        #t)))
       
 ;; ================================== Main program ==============================================
 ;;
@@ -109,3 +113,10 @@
 ;; Testing
 (for-each (lambda (x) (print x ": " (correct-order? rules-test x)))
           page-updates-test)
+
+;(for-each (lambda (x) (print x ": " (correct-order? rules-full x)))
+;          page-updates-full)
+
+;; Solutions
+(define sol1 (remove (lambda (x) (not (correct-order? rules-test x))) page-updates-test))
+
