@@ -5,18 +5,7 @@
 (import srfi-69)
 (import srfi-1)
 
-;; Main idea:
-
-;; 1. Break each page update list to (car page-update-list) and (cdr page-update-list),
-;; and cons those two together:
-;; (cons (car page-update-list) (cdr page-update-list))
-;;
-;; 2. Search in the rules pairs if there's a pair like the pairs you can get from the combination of the first element of the list above with the (cdr page-update-list) list.
-;; 3. If you find such a pair, then it's legal. If not, then no.
-;; 4. Do the same for every element of the original page-update list, except the last element.
-;; Maybe think of instead of a list like (a (b c d)) to have a hashtable hash(a (b c d)). Should make search faster.
-
-
+;; Part 1
 (define before?
   (lambda (a b pair)
     (cond
