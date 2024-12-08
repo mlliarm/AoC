@@ -30,13 +30,14 @@
   (lambda (a b rules)
     (cond
      ((null? rules) #f)
-     ((not (before? a b (car rules))) #f)
+     ((before? a b (car rules)) #t)
      (else
       (before-all? a b (cdr rules))))))
 
 (define correct-order?
   (lambda (rules update)
     (define (correct? b-index result)
+      ;(print update)
       (print "bi: " b-index " res: " result)
       (if (= b-index (length update))
           (and #t result)
@@ -44,12 +45,12 @@
                     (before-all? (list-ref update 0)
                                  (list-ref update b-index)
                                  rules)
-                    )))
+                    )
+          ))
     (cond
      ((null? update) #f)
-     ((not (correct? 1 #t)) #f)
-     (else
-      (correct-order? rules (cdr update))))))
+     ((correct? 1 #t) (correct-order? rules (cdr update)))
+     (else #t))))
       
 ;; ================================== Main program ==============================================
 ;;
