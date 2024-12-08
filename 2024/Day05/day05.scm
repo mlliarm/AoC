@@ -4,6 +4,7 @@
 (load "../util/io.scm")
 (import srfi-69)
 (import srfi-1)
+(import (math base))
 
 ;; Part 1
 (define before?
@@ -107,5 +108,18 @@
 ;          page-updates-full)
 
 ;; Solutions
-(define sol1 (remove (lambda (x) (not (correct-order? rules-test x))) page-updates-test))
+(define sol
+  (lambda (rules page-updates)
+    (remove (lambda (x) (not (correct-order? rules x))) page-updates)))
 
+(define middle
+  (lambda (lat)
+    (list-ref lat (floor (/ (length lat) 2)))))
+
+;; Solution 1
+
+;; Test
+(print (sum (map string->number (map middle (sol rules-test page-updates-test)))))
+
+;; Full
+(print (sum (map string->number (map middle (sol rules-full page-updates-full)))))
