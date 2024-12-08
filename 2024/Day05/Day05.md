@@ -69,11 +69,9 @@ The last update, 97,13,75,29,47, is not in the correct order due to breaking sev
 
 For some reason, the Elves also need to know the middle page number of each update being printed. Because you are currently only printing the correctly-ordered updates, you will need to find the middle page number of each correctly-ordered update. In the above example, the correctly-ordered updates are:
 
-                    ```
-                    75,47,61,53,29
-                    97,61,53,29,13
-                    75,29,13
-                    ```
+     75,47,61,53,29
+     97,61,53,29,13
+     75,29,13
 
 These have middle page numbers of 61, 53, and 29 respectively. Adding these page numbers together gives 143.
 
@@ -87,11 +85,9 @@ While the Elves get to work printing the correctly-ordered updates, you have a l
 
 For each of the incorrectly-ordered updates, use the page ordering rules to put the page numbers in the right order. For the above example, here are the three incorrectly-ordered updates and their correct orderings:
     
-    ```
     75,97,47,61,53 becomes 97,75,47,61,53.
     61,13,29 becomes 61,29,13.
     97,13,75,29,47 becomes 97,75,47,29,13.
-    ```
 
 After taking only the incorrectly-ordered updates and ordering them correctly, their middle page numbers are 47, 29, and 47. Adding these together produces 123.
 
