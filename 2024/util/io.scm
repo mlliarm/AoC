@@ -28,3 +28,15 @@
       (loop (add1 i) limit)))
   vec-tmp)
 
+;; Remove last element of list
+(define pop-last
+    (lambda (lat)
+          (reverse (cdr (reverse lat)))))
+
+;; Take the first x elements from a list of atoms
+(define first-x
+    (lambda (lat x)
+          (let ((tmp (length lat)))
+                (reverse (list-tail (reverse lat) (- tmp x))))))
+
+(define take-x first-x)
