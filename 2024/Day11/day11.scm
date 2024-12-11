@@ -1,5 +1,6 @@
-;; Day 05 Dec. 2024
+;; Day 11 Dec. 2024
 ;; Mi. Lia.
+
 (load "../util/io.scm")
 (import srfi-69)
 (import srfi-1)
@@ -83,7 +84,7 @@
 (define res1  (generate-sol-iter 0 25 data-full-loi)) ;; OK
 (print (length res1))
 
-;; Part 2
+;; ;; Part 2
 (print "Part 2: Started calculating next 25 blinks")
 (define res2 (generate-sol-iter 0 25 res1)) ;; Crashes with 'out of heap' error
 (print (length res2))
