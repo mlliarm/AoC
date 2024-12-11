@@ -4,7 +4,6 @@
 (load "../util/io.scm")
 (import srfi-69)
 (import srfi-1)
-(import (math base))
 
 
 (define transform-number
@@ -43,24 +42,24 @@
      (lod->number (take-x list-of-digits (/ len 2)))
      (lod->number (reverse (take-x (reverse list-of-digits) (/ len 2))))))))
 
-(define solution-1
+(define solution
   (lambda (data)
     (flatten (map transform-number data))))
 
-(define generate-sols1-SLOW
+(define generate-sol-SLOW
  (lambda (data limit res)
    (cond
     ((equal? (length res) limit) res)
     (else
-     (generate-sols1-SLOW data limit (append '() (solution-1 data)))))))
+     (generate-sol-SLOW data limit (append '() (solution data)))))))
 
-(define generate-sols1-iter
+(define generate-sol-iter
   (lambda (counter limit res)
     (if (equal? counter limit)
         res
-        (generate-sols1-iter (add1 counter)
+        (generate-sol-iter (add1 counter)
                              limit
-                             (solution-1 res)))))
+                             (solution res)))))
 
 ;; ================================== Main program ==============================================
 ;;
@@ -81,10 +80,21 @@
 (define data-full-loi
   (data-to-loi data-full))
 
-;;(print (length (generate-sols1-iter 0 25 data-test-loi)))
-;;(print (generate-sols1-iter 0 25 data-test-loi))
+;;(print (length (generate-sol-iter 0 25 data-test-loi)))
+;;(print (generate-sol-iter 0 25 data-test-loi))
 
-;; Full data result
-;;(print (length (generate-sols1-iter 0 25 data-full-loi)))
+;; Full data results
 
-(print (length (generate-sols1-iter 0 75 data-full-loi)))
+;; Part 1
+(print "Part 1: Started calculating first 25 blinks")
+(define res1  (generate-sol-iter 0 25 data-full-loi)) ;; OK
+(print (length res1))
+
+;; Part 2
+(print "Part 2: Started calculating next 25 blinks")
+(define res2 (generate-sol-iter 0 25 res1)) ;; Crashes with 'out of heap' error
+(print (length res2))
+
+(print "Part 2: Started calculating last 25 blinks")
+(define res3 (generate-sol-iter 0 25 res2)) ;; Doesn't even get here
+(print (length res3))
