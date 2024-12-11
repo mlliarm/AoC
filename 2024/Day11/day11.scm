@@ -2,7 +2,6 @@
 ;; Mi. Lia.
 
 (load "../util/io.scm")
-(import srfi-69)
 (import srfi-1)
 
 ;; Helper functions
@@ -21,7 +20,6 @@
 (define improperp->properp
   (lambda (pair)
     (append (list (car pair)) (list (cdr pair)))))
-    
 
 (define split-in-two
   (lambda (num)
@@ -32,15 +30,15 @@
         (- (char->integer char) 48)))
     (define list-of-digits
       (map char->number (string->list str-of-digits)))
-     (define (string-join los)
-          (fold-right string-append "" los))
+    (define (string-join los)
+      (fold-right string-append "" los))
     (define lod->number
       (lambda (lod)
         (string->number (string-join (map number->string lod)))))
-   (improperp->properp
-    (cons
-     (lod->number (take-x list-of-digits (/ len 2)))
-     (lod->number (reverse (take-x (reverse list-of-digits) (/ len 2))))))))
+    (improperp->properp
+     (cons
+      (lod->number (take-x list-of-digits (/ len 2)))
+      (lod->number (reverse (take-x (reverse list-of-digits) (/ len 2))))))))
 
 ;; Solution
 (define solution
@@ -52,17 +50,17 @@
     (if (equal? counter limit)
         res
         (generate-sol-iter (add1 counter)
-                             limit
-                             (solution res)))))
+                           limit
+                           (solution res)))))
 
 ;; ================================== Main program ==============================================
 ;;
 ;; Input data as lolos
 (define data-test
-   (read-input-file "test.dat"))
+  (read-input-file "test.dat"))
 
 (define data-full
-   (read-input-file "full.dat"))
+  (read-input-file "full.dat"))
 
 (define data-to-loi
   (lambda (data)
