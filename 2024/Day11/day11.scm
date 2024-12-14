@@ -4,7 +4,7 @@
 (load "../util/io.scm")
 (import srfi-1)
 (import srfi-69)
-(import generic-helpers)
+(import (chicken string))
 
 ;; Helper functions
 (define transform-number
@@ -40,8 +40,8 @@
         (string->number (string-join (map number->string lod)))))
     (improperp->properp
      (cons
-      (lod->number (take-x list-of-digits (/ len 2)))
-      (lod->number (reverse (take-x (reverse list-of-digits) (/ len 2))))))))
+      (lod->number (take-x list-of-digits (/ len 2)))      
+      (lod->number (list-tail list-of-digits (/ len 2)))))))
 
 ;; Solution 1
 (define solution
@@ -98,18 +98,19 @@
 ;; Full data results
 ;; Part 1
 (define h (make-hash-table))
-(print "Part 1: Started calculating first 25 blinks")
-(define res1  (generate-sol-iter-cach 0 25 data-full-loi h)) ;; OK
-(print (length-iter res1 0))
+;; (print "Part 1: Started calculating first 25 blinks")
+;; (define res1  (generate-sol-iter-cach 0 25 data-full-loi h)) ;; OK
+;; (print (length-iter res1 0))
 
-;; ;; Part 2
-(print "Part 2: Started calculating next 25 blinks")
-(define res2 (generate-sol-iter-cach 0 25 res1 h)) ;; Crashes with 'out of heap' error
-(print (length-iter res2 0))
+;; ;; ;; Part 2
+;; (print "Part 2: Started calculating next 25 blinks")
+;; (define res2 (generate-sol-iter-cach 0 25 res1 h)) ;; Crashes with 'out of heap' error
+;; (print (length-iter res2 0))
 
-(print "Part 2: Started calculating last 25 blinks")
-(define res3 (generate-sol-iter-cach 0 25 res2 h)) ;; Doesn't even get here
-(print (length-iter res3 0))
+;; (print "Part 2: Started calculating last 25 blinks")
+;; (define res3 (generate-sol-iter-cach 0 25 res2 h)) ;; Doesn't even get here
+;; (print (length-iter res3 0))
 
 ;;
-;;(print (length-iter (generate-sol-iter-cach 0 75 data-full-loi h) 0)
+(print "Part 2:")
+(print (length-iter (generate-sol-iter-cach 0 75 data-full-loi h) 0))
