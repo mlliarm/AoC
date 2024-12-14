@@ -15,20 +15,6 @@
      (else
       (* 2024 num)))))
 
-(define transform-number-cach
-  (lambda (htable num)
-    (cond
-     ((equal? num 0) 1)
-     ((even? (num-of-digits num)) (cond
-                                   ((hash-table-exists? htable num)
-                                    (hash-table-ref htable num))
-                                   (else
-                                    (let ((value (flatten (split-in-two num))))
-                                    (hash-table-set! htable num value)
-                                    value))))
-     (else
-      (* 2024 num)))))
-
 (define num-of-digits
   (lambda (num)
     (string-length (number->string num))))
@@ -71,12 +57,6 @@
                            (solution res)))))
 
 ;; Solution 2
-(define solution-2
-  (lambda (data)
-    (define htable (make-hash-table))
-      (flatten (map (lambda (d) (transform-number-cach htable d))
-                       data))))
-
 (define generate-sol-iter-cach
   (lambda (counter limit res h)
     (if (equal? counter limit)
