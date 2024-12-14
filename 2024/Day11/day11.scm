@@ -5,6 +5,7 @@
 (import srfi-1)
 (import srfi-69)
 (import (chicken string))
+(import generic-helpers)
 
 ;; Helper functions
 (define transform-number
@@ -12,6 +13,20 @@
     (cond
      ((equal? num 0) 1)
      ((even? (num-of-digits num)) (split-in-two num))
+     (else
+      (* 2024 num)))))
+
+(define transform-number-cach
+  (lambda (htable num)
+    (cond
+     ((equal? num 0) 1)
+     ((even? (num-of-digits num)) (cond
+                                   ((hash-table-exists? htable num)
+                                    (hash-table-ref htable num))
+                                   (else
+                                    (let ((value (split-in-two num)))
+                                      (hash-table-set! htable num value)
+                                      value))))
      (else
       (* 2024 num)))))
 
@@ -27,11 +42,11 @@
 (define split-in-two
   (lambda (num)
     (let ((len (num-of-digits num)))
-    (let ((left (floor (/ num (expt 10 (/ len 2))))))
-     (cons
-      left
-      (cons (- num (* left (expt 10 (/ len 2)))) '()))))))
-     
+      (let ((half-dig (/ len 2)))
+        (let ((left (floor (/ num (expt 10 half-dig)))))
+          (cons
+           left
+           (cons (- num (* left (expt 10 half-dig))) '())))))))
 
 ;; Solution 1
 (define solution
@@ -47,20 +62,19 @@
                            (solution res)))))
 
 ;; Solution 2
+(define solution-2
+  (lambda (data h-num)
+    (flatten (map (lambda (d) (transform-number-cach h-num d))
+                  data))))
+
 (define generate-sol-iter-cach
-  (lambda (counter limit res h)
+  (lambda (counter limit res h-num)
     (if (equal? counter limit)
         res
-        (cond
-         ((hash-table-exists? h res) (hash-table-ref h res))
-         (else
-          (let ((value (solution res)))
-            (hash-table-set! h res value)
-            (generate-sol-iter-cach (add1 counter)
-                                    limit
-                                    value
-                                    h)))))))
-    
+        (generate-sol-iter-cach (add1 counter)
+                                limit
+                                (solution-2 res h-num)
+                                h-num))))
 
 ;; ================================== Main program ==============================================
 ;;
@@ -87,18 +101,18 @@
 
 ;; Full data results
 ;; Part 1
-(define h (make-hash-table))
+(define h-num (make-hash-table))
 (print "Part 1: Started calculating first 25 blinks")
-(define res1  (generate-sol-iter-cach 0 25 data-full-loi h)) ;; OK
+(define res1  (generate-sol-iter-cach 0 25 data-full-loi h-num)) ;; OK
 (print (length-iter res1 0))
 
 ;; ;; ;; Part 2
 (print "Part 2: Started calculating next 25 blinks")
-(define res2 (generate-sol-iter-cach 0 25 res1 h)) ;; Crashes with 'out of heap' error
+(define res2 (generate-sol-iter-cach 0 25 res1 h-num)) ;; Crashes with 'out of heap' error
 (print (length-iter res2 0))
 
 (print "Part 2: Started calculating last 25 blinks")
-(define res3 (generate-sol-iter-cach 0 25 res2 h)) ;; Doesn't even get here
+(define res3 (generate-sol-iter-cach 0 25 res2 h-num)) ;; Doesn't even get here
 (print (length-iter res3 0))
 
 ;;
