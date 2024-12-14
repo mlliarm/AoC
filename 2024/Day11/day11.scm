@@ -19,29 +19,19 @@
   (lambda (num)
     (string-length (number->string num))))
 
-;; Turn improper list (pair) to proper list
-(define improperp->properp
-  (lambda (pair)
-    (append (list (car pair)) (list (cdr pair)))))
-
+;; Using the following formulas to calculate left and right children of
+;; number with even number of digits:
+;;
+;; left  = (floor (/ num (expt 10 (/ len 2))))
+;; right = (num - (* left (expt 10 (/ len 2))))
 (define split-in-two
   (lambda (num)
-    (define str-of-digits (number->string num))
-    (define len (string-length str-of-digits))
-    (define char->number
-      (lambda (char)
-        (- (char->integer char) 48)))
-    (define list-of-digits
-      (map char->number (string->list str-of-digits)))
-    (define (string-join los)
-      (fold-right string-append "" los))
-    (define lod->number
-      (lambda (lod)
-        (string->number (string-join (map number->string lod)))))
-    (improperp->properp
+    (let ((len (num-of-digits num)))
+    (let ((left (floor (/ num (expt 10 (/ len 2))))))
      (cons
-      (lod->number (take-x list-of-digits (/ len 2)))      
-      (lod->number (list-tail list-of-digits (/ len 2)))))))
+      left
+      (cons (- num (* left (expt 10 (/ len 2)))) '()))))))
+     
 
 ;; Solution 1
 (define solution
@@ -98,19 +88,19 @@
 ;; Full data results
 ;; Part 1
 (define h (make-hash-table))
-;; (print "Part 1: Started calculating first 25 blinks")
-;; (define res1  (generate-sol-iter-cach 0 25 data-full-loi h)) ;; OK
-;; (print (length-iter res1 0))
+(print "Part 1: Started calculating first 25 blinks")
+(define res1  (generate-sol-iter-cach 0 25 data-full-loi h)) ;; OK
+(print (length-iter res1 0))
 
 ;; ;; ;; Part 2
-;; (print "Part 2: Started calculating next 25 blinks")
-;; (define res2 (generate-sol-iter-cach 0 25 res1 h)) ;; Crashes with 'out of heap' error
-;; (print (length-iter res2 0))
+(print "Part 2: Started calculating next 25 blinks")
+(define res2 (generate-sol-iter-cach 0 25 res1 h)) ;; Crashes with 'out of heap' error
+(print (length-iter res2 0))
 
-;; (print "Part 2: Started calculating last 25 blinks")
-;; (define res3 (generate-sol-iter-cach 0 25 res2 h)) ;; Doesn't even get here
-;; (print (length-iter res3 0))
+(print "Part 2: Started calculating last 25 blinks")
+(define res3 (generate-sol-iter-cach 0 25 res2 h)) ;; Doesn't even get here
+(print (length-iter res3 0))
 
 ;;
-(print "Part 2:")
-(print (length-iter (generate-sol-iter-cach 0 75 data-full-loi h) 0))
+;; (print "Part 2:")
+;; (print (length-iter (generate-sol-iter-cach 0 75 data-full-loi h) 0))
